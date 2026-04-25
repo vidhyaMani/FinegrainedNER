@@ -1,0 +1,62 @@
+"""Fine-tune a domain-adapted model for NER.
+
+Uses a domain-pretrained BERT/RoBERTa checkpoint (from pretrain_domain.py)
+and fine-tunes it for token classification on the NER task.
+"""
+
+from __future__ import annotations
+
+from typing import Dict
+
+from src.models.transformer.bert_ner import BertNER
+from src.utils.helpers import get_logger
+
+logger = get_logger(__name__)
+
+
+class DomainAdaptedNER(BertNER):
+    """NER model fine-tuned from a domain-adapted pretrained checkpoint.
+
+    Identical to BertNER, but initialized from a domain-pretrained
+    checkpoint instead of the vanilla HuggingFace model.
+    """
+
+    def __init__(
+        self,
+        label2id: Dict[str, int],
+        id2label: Dict[int, str],
+        model_name: str = "outputs/domain_pretrained/final",
+        max_length: int = 64,
+        lr: float = 3e-5,
+        weight_decay: float = 0.01,
+        warmup_ratio: float = 0.1,
+        batch_size: int = 32,
+        max_epochs: int = 10,
+        patience: int = 3,
+        fp16: bool = True,
+        gradient_accumulation_steps: int = 2,
+        label_all_tokens: bool = False,
+        output_dir: str = "outputs/domain_adapted_ner",
+        seed: int = 42,
+    ):
+        super().__init__(
+            label2id=label2id,
+            id2label=id2label,
+            model_name=model_name,
+            max_length=max_length,
+            lr=lr,
+            weight_decay=weight_decay,
+            warmup_ratio=warmup_ratio,
+            batch_size=batch_size,
+            max_epochs=max_epochs,
+            patience=patience,
+            fp16=fp16,
+            gradient_accumulation_steps=gradient_accumulation_steps,
+            label_all_tokens=label_all_tokens,
+            output_dir=output_dir,
+            seed=seed,
+        )
+        logger.info(
+            f"Initialized Domain-Adapted NER from checkpoint '{model_name}'"
+        )
+
