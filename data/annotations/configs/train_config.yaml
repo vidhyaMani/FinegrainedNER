@@ -1,0 +1,107 @@
+# Training configuration for E-Commerce NER models
+
+# ── Classical Models ──
+classical:
+  bilstm_crf:
+    embedding_dim: 100
+    hidden_dim: 256
+    num_layers: 2
+    dropout: 0.5
+    use_char_embeddings: true
+    char_embedding_dim: 30
+    char_hidden_dim: 50
+    lr: 0.001
+    weight_decay: 1e-5
+    batch_size: 32
+    max_epochs: 50
+    patience: 5
+    clip_grad: 5.0
+
+  cnn_bilstm:
+    embedding_dim: 100
+    hidden_dim: 256
+    num_layers: 2
+    dropout: 0.5
+    char_embedding_dim: 30
+    char_conv_filters: 50
+    char_conv_kernel: 3
+    lr: 0.001
+    weight_decay: 1e-5
+    batch_size: 32
+    max_epochs: 50
+    patience: 5
+    clip_grad: 5.0
+
+# ── Transformer Models ──
+transformer:
+  bert:
+    model_name: "bert-base-uncased"
+    max_length: 64
+    lr: 5e-5
+    weight_decay: 0.01
+    warmup_ratio: 0.1
+    batch_size: 32
+    max_epochs: 10
+    patience: 3
+    fp16: true
+    gradient_accumulation_steps: 1
+    label_all_tokens: false
+
+  roberta:
+    model_name: "roberta-base"
+    max_length: 64
+    lr: 5e-5
+    weight_decay: 0.01
+    warmup_ratio: 0.1
+    batch_size: 32
+    max_epochs: 10
+    patience: 3
+    fp16: true
+    gradient_accumulation_steps: 1
+    label_all_tokens: false
+
+  domain_adapted:
+    model_name: "bert-base-uncased"
+    max_length: 64
+    lr: 3e-5
+    weight_decay: 0.01
+    warmup_ratio: 0.1
+    batch_size: 32
+    max_epochs: 10
+    patience: 3
+    fp16: true
+    gradient_accumulation_steps: 1
+    label_all_tokens: false
+
+# ── Hierarchical Model ──
+hierarchical:
+  model_name: "bert-base-uncased"
+  max_length: 64
+  lr: 3e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  batch_size: 32
+  max_epochs: 10
+  patience: 3
+  fp16: true
+  coarse_weight: 0.3
+  fine_weight: 0.7
+  dropout: 0.1
+
+# ── Domain Pretraining ──
+domain_pretraining:
+  base_model: "bert-base-uncased"
+  mlm_probability: 0.15
+  max_length: 128
+  lr: 5e-5
+  batch_size: 64
+  max_steps: 100000
+  warmup_steps: 10000
+  save_steps: 10000
+  fp16: true
+
+# ── General Settings ──
+seed: 42
+use_wandb: false
+wandb_project: "ecommerce-ner"
+
