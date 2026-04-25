@@ -1,0 +1,600 @@
+{"query_id": "557", "query_index": 0, "model": "bilstm_crf", "tokens": ["brahmin", "handbags", "on", "clearance"], "gold_tags": ["B-BRAND", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O"]}
+{"query_id": "557", "query_index": 0, "model": "cnn_bilstm", "tokens": ["brahmin", "handbags", "on", "clearance"], "gold_tags": ["B-BRAND", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O"]}
+{"query_id": "557", "query_index": 0, "model": "bert_ner", "tokens": ["brahmin", "handbags", "on", "clearance"], "gold_tags": ["B-BRAND", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O"]}
+{"query_id": "557", "query_index": 0, "model": "roberta_ner", "tokens": ["brahmin", "handbags", "on", "clearance"], "gold_tags": ["B-BRAND", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O"]}
+{"query_id": "798", "query_index": 1, "model": "bilstm_crf", "tokens": ["vitamin", "b", "12"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "798", "query_index": 1, "model": "cnn_bilstm", "tokens": ["vitamin", "b", "12"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "798", "query_index": 1, "model": "bert_ner", "tokens": ["vitamin", "b", "12"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "798", "query_index": 1, "model": "roberta_ner", "tokens": ["vitamin", "b", "12"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "977", "query_index": 2, "model": "bilstm_crf", "tokens": ["amazon", "basic", "jeans", "women"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O"]}
+{"query_id": "977", "query_index": 2, "model": "cnn_bilstm", "tokens": ["amazon", "basic", "jeans", "women"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O"]}
+{"query_id": "977", "query_index": 2, "model": "bert_ner", "tokens": ["amazon", "basic", "jeans", "women"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["B-BRAND", "I-BRAND", "O", "O"]}
+{"query_id": "977", "query_index": 2, "model": "roberta_ner", "tokens": ["amazon", "basic", "jeans", "women"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "136", "query_index": 3, "model": "bilstm_crf", "tokens": ["nivea", "tinted", "moisturizer"], "gold_tags": ["B-BRAND", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "136", "query_index": 3, "model": "cnn_bilstm", "tokens": ["nivea", "tinted", "moisturizer"], "gold_tags": ["B-BRAND", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "136", "query_index": 3, "model": "bert_ner", "tokens": ["nivea", "tinted", "moisturizer"], "gold_tags": ["B-BRAND", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "136", "query_index": 3, "model": "roberta_ner", "tokens": ["nivea", "tinted", "moisturizer"], "gold_tags": ["B-BRAND", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "575", "query_index": 4, "model": "bilstm_crf", "tokens": ["cooking", "utensils"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "575", "query_index": 4, "model": "cnn_bilstm", "tokens": ["cooking", "utensils"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "575", "query_index": 4, "model": "bert_ner", "tokens": ["cooking", "utensils"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "575", "query_index": 4, "model": "roberta_ner", "tokens": ["cooking", "utensils"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "544", "query_index": 5, "model": "bilstm_crf", "tokens": ["teal", "green", "stapler"], "gold_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"]}
+{"query_id": "544", "query_index": 5, "model": "cnn_bilstm", "tokens": ["teal", "green", "stapler"], "gold_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"]}
+{"query_id": "544", "query_index": 5, "model": "bert_ner", "tokens": ["teal", "green", "stapler"], "gold_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"]}
+{"query_id": "544", "query_index": 5, "model": "roberta_ner", "tokens": ["teal", "green", "stapler"], "gold_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"]}
+{"query_id": "332", "query_index": 6, "model": "bilstm_crf", "tokens": ["mark", "few", "gonzaga", "book"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "332", "query_index": 6, "model": "cnn_bilstm", "tokens": ["mark", "few", "gonzaga", "book"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "332", "query_index": 6, "model": "bert_ner", "tokens": ["mark", "few", "gonzaga", "book"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "332", "query_index": 6, "model": "roberta_ner", "tokens": ["mark", "few", "gonzaga", "book"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "917", "query_index": 7, "model": "bilstm_crf", "tokens": ["camiseta", "de", "los", "lakers", "original"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "917", "query_index": 7, "model": "cnn_bilstm", "tokens": ["camiseta", "de", "los", "lakers", "original"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "917", "query_index": 7, "model": "bert_ner", "tokens": ["camiseta", "de", "los", "lakers", "original"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "917", "query_index": 7, "model": "roberta_ner", "tokens": ["camiseta", "de", "los", "lakers", "original"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "678", "query_index": 8, "model": "bilstm_crf", "tokens": ["bar", "stool"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "678", "query_index": 8, "model": "cnn_bilstm", "tokens": ["bar", "stool"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "678", "query_index": 8, "model": "bert_ner", "tokens": ["bar", "stool"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "678", "query_index": 8, "model": "roberta_ner", "tokens": ["bar", "stool"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "363", "query_index": 9, "model": "bilstm_crf", "tokens": ["kipling", "wolfe", "pencil", "pouch", "true", "blue"], "gold_tags": ["B-BRAND", "O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-BRAND", "O", "O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "363", "query_index": 9, "model": "cnn_bilstm", "tokens": ["kipling", "wolfe", "pencil", "pouch", "true", "blue"], "gold_tags": ["B-BRAND", "O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-BRAND", "O", "O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "363", "query_index": 9, "model": "bert_ner", "tokens": ["kipling", "wolfe", "pencil", "pouch", "true", "blue"], "gold_tags": ["B-BRAND", "O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-BRAND", "O", "O", "O", "O", "B-COLOR"]}
+{"query_id": "363", "query_index": 9, "model": "roberta_ner", "tokens": ["kipling", "wolfe", "pencil", "pouch", "true", "blue"], "gold_tags": ["B-BRAND", "O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-BRAND", "O", "O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "963", "query_index": 10, "model": "bilstm_crf", "tokens": ["sit", "inch", "truck", "for", "baby"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "963", "query_index": 10, "model": "cnn_bilstm", "tokens": ["sit", "inch", "truck", "for", "baby"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "963", "query_index": 10, "model": "bert_ner", "tokens": ["sit", "inch", "truck", "for", "baby"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "963", "query_index": 10, "model": "roberta_ner", "tokens": ["sit", "inch", "truck", "for", "baby"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "10", "query_index": 11, "model": "bilstm_crf", "tokens": ["holster", "for", "kimber", "380"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O", "O"]}
+{"query_id": "10", "query_index": 11, "model": "cnn_bilstm", "tokens": ["holster", "for", "kimber", "380"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "10", "query_index": 11, "model": "bert_ner", "tokens": ["holster", "for", "kimber", "380"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "10", "query_index": 11, "model": "roberta_ner", "tokens": ["holster", "for", "kimber", "380"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "907", "query_index": 12, "model": "bilstm_crf", "tokens": ["wired", "headphones"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "907", "query_index": 12, "model": "cnn_bilstm", "tokens": ["wired", "headphones"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "907", "query_index": 12, "model": "bert_ner", "tokens": ["wired", "headphones"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "907", "query_index": 12, "model": "roberta_ner", "tokens": ["wired", "headphones"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "277", "query_index": 13, "model": "bilstm_crf", "tokens": ["mi", "note", "8", "mobile", "phone"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "277", "query_index": 13, "model": "cnn_bilstm", "tokens": ["mi", "note", "8", "mobile", "phone"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "277", "query_index": 13, "model": "bert_ner", "tokens": ["mi", "note", "8", "mobile", "phone"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "277", "query_index": 13, "model": "roberta_ner", "tokens": ["mi", "note", "8", "mobile", "phone"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "377", "query_index": 14, "model": "bilstm_crf", "tokens": ["fruit", "fly", "trap"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-BRAND", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "377", "query_index": 14, "model": "cnn_bilstm", "tokens": ["fruit", "fly", "trap"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "377", "query_index": 14, "model": "bert_ner", "tokens": ["fruit", "fly", "trap"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "377", "query_index": 14, "model": "roberta_ner", "tokens": ["fruit", "fly", "trap"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "734", "query_index": 15, "model": "bilstm_crf", "tokens": ["humanrace", "shoes", "men"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "734", "query_index": 15, "model": "cnn_bilstm", "tokens": ["humanrace", "shoes", "men"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "734", "query_index": 15, "model": "bert_ner", "tokens": ["humanrace", "shoes", "men"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "734", "query_index": 15, "model": "roberta_ner", "tokens": ["humanrace", "shoes", "men"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "950", "query_index": 16, "model": "bilstm_crf", "tokens": ["chameleon", "substrate"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "950", "query_index": 16, "model": "cnn_bilstm", "tokens": ["chameleon", "substrate"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "950", "query_index": 16, "model": "bert_ner", "tokens": ["chameleon", "substrate"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "950", "query_index": 16, "model": "roberta_ner", "tokens": ["chameleon", "substrate"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "141", "query_index": 17, "model": "bilstm_crf", "tokens": ["ssd", "1tb"], "gold_tags": ["B-PRODUCT_TYPE", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O"]}
+{"query_id": "141", "query_index": 17, "model": "cnn_bilstm", "tokens": ["ssd", "1tb"], "gold_tags": ["B-PRODUCT_TYPE", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O"]}
+{"query_id": "141", "query_index": 17, "model": "bert_ner", "tokens": ["ssd", "1tb"], "gold_tags": ["B-PRODUCT_TYPE", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O"]}
+{"query_id": "141", "query_index": 17, "model": "roberta_ner", "tokens": ["ssd", "1tb"], "gold_tags": ["B-PRODUCT_TYPE", "O"], "pred_tags": ["B-PRODUCT_TYPE", "B-COLOR"]}
+{"query_id": "822", "query_index": 18, "model": "bilstm_crf", "tokens": ["fake", "sweets"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "822", "query_index": 18, "model": "cnn_bilstm", "tokens": ["fake", "sweets"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "822", "query_index": 18, "model": "bert_ner", "tokens": ["fake", "sweets"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "822", "query_index": 18, "model": "roberta_ner", "tokens": ["fake", "sweets"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "668", "query_index": 19, "model": "bilstm_crf", "tokens": ["oak", "hill", "pants", "big", "and", "tall"], "gold_tags": ["B-BRAND", "I-BRAND", "O", "O", "O", "O"], "pred_tags": ["B-BRAND", "I-BRAND", "O", "O", "O", "O"]}
+{"query_id": "668", "query_index": 19, "model": "cnn_bilstm", "tokens": ["oak", "hill", "pants", "big", "and", "tall"], "gold_tags": ["B-BRAND", "I-BRAND", "O", "O", "O", "O"], "pred_tags": ["B-BRAND", "I-BRAND", "O", "O", "O", "O"]}
+{"query_id": "668", "query_index": 19, "model": "bert_ner", "tokens": ["oak", "hill", "pants", "big", "and", "tall"], "gold_tags": ["B-BRAND", "I-BRAND", "O", "O", "O", "O"], "pred_tags": ["B-BRAND", "I-BRAND", "O", "O", "O", "O"]}
+{"query_id": "668", "query_index": 19, "model": "roberta_ner", "tokens": ["oak", "hill", "pants", "big", "and", "tall"], "gold_tags": ["B-BRAND", "I-BRAND", "O", "O", "O", "O"], "pred_tags": ["B-BRAND", "I-BRAND", "O", "O", "O", "O"]}
+{"query_id": "589", "query_index": 20, "model": "bilstm_crf", "tokens": ["backpack", "for", "women"], "gold_tags": ["B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "589", "query_index": 20, "model": "cnn_bilstm", "tokens": ["backpack", "for", "women"], "gold_tags": ["B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "589", "query_index": 20, "model": "bert_ner", "tokens": ["backpack", "for", "women"], "gold_tags": ["B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "589", "query_index": 20, "model": "roberta_ner", "tokens": ["backpack", "for", "women"], "gold_tags": ["B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "816", "query_index": 21, "model": "bilstm_crf", "tokens": ["emmeline", "doc", "martens"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "816", "query_index": 21, "model": "cnn_bilstm", "tokens": ["emmeline", "doc", "martens"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "816", "query_index": 21, "model": "bert_ner", "tokens": ["emmeline", "doc", "martens"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "816", "query_index": 21, "model": "roberta_ner", "tokens": ["emmeline", "doc", "martens"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "286", "query_index": 22, "model": "bilstm_crf", "tokens": ["open", "ended", "toys", "for", "1", "year", "old"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "286", "query_index": 22, "model": "cnn_bilstm", "tokens": ["open", "ended", "toys", "for", "1", "year", "old"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "286", "query_index": 22, "model": "bert_ner", "tokens": ["open", "ended", "toys", "for", "1", "year", "old"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "286", "query_index": 22, "model": "roberta_ner", "tokens": ["open", "ended", "toys", "for", "1", "year", "old"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O", "O", "O"]}
+{"query_id": "82", "query_index": 23, "model": "bilstm_crf", "tokens": ["keychain", "anchor", "for", "women"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "82", "query_index": 23, "model": "cnn_bilstm", "tokens": ["keychain", "anchor", "for", "women"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "82", "query_index": 23, "model": "bert_ner", "tokens": ["keychain", "anchor", "for", "women"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "82", "query_index": 23, "model": "roberta_ner", "tokens": ["keychain", "anchor", "for", "women"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "635", "query_index": 24, "model": "bilstm_crf", "tokens": ["tripod", "iphone", "gopro"], "gold_tags": ["O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "O", "B-BRAND"]}
+{"query_id": "635", "query_index": 24, "model": "cnn_bilstm", "tokens": ["tripod", "iphone", "gopro"], "gold_tags": ["O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "635", "query_index": 24, "model": "bert_ner", "tokens": ["tripod", "iphone", "gopro"], "gold_tags": ["O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "635", "query_index": 24, "model": "roberta_ner", "tokens": ["tripod", "iphone", "gopro"], "gold_tags": ["O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "312", "query_index": 25, "model": "bilstm_crf", "tokens": ["workout", "shirts", "women"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "312", "query_index": 25, "model": "cnn_bilstm", "tokens": ["workout", "shirts", "women"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "312", "query_index": 25, "model": "bert_ner", "tokens": ["workout", "shirts", "women"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "312", "query_index": 25, "model": "roberta_ner", "tokens": ["workout", "shirts", "women"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "797", "query_index": 26, "model": "bilstm_crf", "tokens": ["rinsing", "tub"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "797", "query_index": 26, "model": "cnn_bilstm", "tokens": ["rinsing", "tub"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "797", "query_index": 26, "model": "bert_ner", "tokens": ["rinsing", "tub"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "797", "query_index": 26, "model": "roberta_ner", "tokens": ["rinsing", "tub"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "468", "query_index": 27, "model": "bilstm_crf", "tokens": ["1.75", "petg", "filament"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "468", "query_index": 27, "model": "cnn_bilstm", "tokens": ["1.75", "petg", "filament"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "468", "query_index": 27, "model": "bert_ner", "tokens": ["1.75", "petg", "filament"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "468", "query_index": 27, "model": "roberta_ner", "tokens": ["1.75", "petg", "filament"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "697", "query_index": 28, "model": "bilstm_crf", "tokens": ["girls", "dress", "up", "shoes"], "gold_tags": ["B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "697", "query_index": 28, "model": "cnn_bilstm", "tokens": ["girls", "dress", "up", "shoes"], "gold_tags": ["B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "697", "query_index": 28, "model": "bert_ner", "tokens": ["girls", "dress", "up", "shoes"], "gold_tags": ["B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "697", "query_index": 28, "model": "roberta_ner", "tokens": ["girls", "dress", "up", "shoes"], "gold_tags": ["B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "192", "query_index": 29, "model": "bilstm_crf", "tokens": ["finland", "boots"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "192", "query_index": 29, "model": "cnn_bilstm", "tokens": ["finland", "boots"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "192", "query_index": 29, "model": "bert_ner", "tokens": ["finland", "boots"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "192", "query_index": 29, "model": "roberta_ner", "tokens": ["finland", "boots"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "883", "query_index": 30, "model": "bilstm_crf", "tokens": ["vintage", "sewing", "machine", "music", "box"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "883", "query_index": 30, "model": "cnn_bilstm", "tokens": ["vintage", "sewing", "machine", "music", "box"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "883", "query_index": 30, "model": "bert_ner", "tokens": ["vintage", "sewing", "machine", "music", "box"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "883", "query_index": 30, "model": "roberta_ner", "tokens": ["vintage", "sewing", "machine", "music", "box"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "865", "query_index": 31, "model": "bilstm_crf", "tokens": ["peter", "ustinov"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "865", "query_index": 31, "model": "cnn_bilstm", "tokens": ["peter", "ustinov"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "865", "query_index": 31, "model": "bert_ner", "tokens": ["peter", "ustinov"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "865", "query_index": 31, "model": "roberta_ner", "tokens": ["peter", "ustinov"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "499", "query_index": 32, "model": "bilstm_crf", "tokens": ["makeup", "remover", "wipes"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "499", "query_index": 32, "model": "cnn_bilstm", "tokens": ["makeup", "remover", "wipes"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "499", "query_index": 32, "model": "bert_ner", "tokens": ["makeup", "remover", "wipes"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "499", "query_index": 32, "model": "roberta_ner", "tokens": ["makeup", "remover", "wipes"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "210", "query_index": 33, "model": "bilstm_crf", "tokens": ["yeti", "backpack", "cooler"], "gold_tags": ["B-BRAND", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "210", "query_index": 33, "model": "cnn_bilstm", "tokens": ["yeti", "backpack", "cooler"], "gold_tags": ["B-BRAND", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "210", "query_index": 33, "model": "bert_ner", "tokens": ["yeti", "backpack", "cooler"], "gold_tags": ["B-BRAND", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "210", "query_index": 33, "model": "roberta_ner", "tokens": ["yeti", "backpack", "cooler"], "gold_tags": ["B-BRAND", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-BRAND", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "331", "query_index": 34, "model": "bilstm_crf", "tokens": ["jewelry", "stainless", "steel"], "gold_tags": ["O", "B-MATERIAL", "I-MATERIAL"], "pred_tags": ["O", "B-MATERIAL", "I-MATERIAL"]}
+{"query_id": "331", "query_index": 34, "model": "cnn_bilstm", "tokens": ["jewelry", "stainless", "steel"], "gold_tags": ["O", "B-MATERIAL", "I-MATERIAL"], "pred_tags": ["O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"]}
+{"query_id": "331", "query_index": 34, "model": "bert_ner", "tokens": ["jewelry", "stainless", "steel"], "gold_tags": ["O", "B-MATERIAL", "I-MATERIAL"], "pred_tags": ["O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"]}
+{"query_id": "331", "query_index": 34, "model": "roberta_ner", "tokens": ["jewelry", "stainless", "steel"], "gold_tags": ["O", "B-MATERIAL", "I-MATERIAL"], "pred_tags": ["O", "B-MATERIAL", "I-MATERIAL"]}
+{"query_id": "294", "query_index": 35, "model": "bilstm_crf", "tokens": ["sd", "card", "mp3"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "294", "query_index": 35, "model": "cnn_bilstm", "tokens": ["sd", "card", "mp3"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "294", "query_index": 35, "model": "bert_ner", "tokens": ["sd", "card", "mp3"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "294", "query_index": 35, "model": "roberta_ner", "tokens": ["sd", "card", "mp3"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "513", "query_index": 36, "model": "bilstm_crf", "tokens": ["silk", "button", "down", "pajamas", "for", "women"], "gold_tags": ["B-MATERIAL", "O", "O", "O", "O", "O"], "pred_tags": ["B-MATERIAL", "O", "O", "O", "O", "O"]}
+{"query_id": "513", "query_index": 36, "model": "cnn_bilstm", "tokens": ["silk", "button", "down", "pajamas", "for", "women"], "gold_tags": ["B-MATERIAL", "O", "O", "O", "O", "O"], "pred_tags": ["B-MATERIAL", "O", "O", "O", "O", "O"]}
+{"query_id": "513", "query_index": 36, "model": "bert_ner", "tokens": ["silk", "button", "down", "pajamas", "for", "women"], "gold_tags": ["B-MATERIAL", "O", "O", "O", "O", "O"], "pred_tags": ["B-MATERIAL", "O", "O", "O", "O", "O"]}
+{"query_id": "513", "query_index": 36, "model": "roberta_ner", "tokens": ["silk", "button", "down", "pajamas", "for", "women"], "gold_tags": ["B-MATERIAL", "O", "O", "O", "O", "O"], "pred_tags": ["B-MATERIAL", "O", "O", "O", "O", "O"]}
+{"query_id": "382", "query_index": 37, "model": "bilstm_crf", "tokens": ["christy", "barritt"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "382", "query_index": 37, "model": "cnn_bilstm", "tokens": ["christy", "barritt"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "382", "query_index": 37, "model": "bert_ner", "tokens": ["christy", "barritt"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "382", "query_index": 37, "model": "roberta_ner", "tokens": ["christy", "barritt"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "924", "query_index": 38, "model": "bilstm_crf", "tokens": ["whats", "yours", "like", "game"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "924", "query_index": 38, "model": "cnn_bilstm", "tokens": ["whats", "yours", "like", "game"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "924", "query_index": 38, "model": "bert_ner", "tokens": ["whats", "yours", "like", "game"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "924", "query_index": 38, "model": "roberta_ner", "tokens": ["whats", "yours", "like", "game"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "741", "query_index": 39, "model": "bilstm_crf", "tokens": ["mens", "hoodies", "under", "10"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "741", "query_index": 39, "model": "cnn_bilstm", "tokens": ["mens", "hoodies", "under", "10"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "741", "query_index": 39, "model": "bert_ner", "tokens": ["mens", "hoodies", "under", "10"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "741", "query_index": 39, "model": "roberta_ner", "tokens": ["mens", "hoodies", "under", "10"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "218", "query_index": 40, "model": "bilstm_crf", "tokens": ["adidas", "trefoil", "shirts", "for", "men"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O", "O"]}
+{"query_id": "218", "query_index": 40, "model": "cnn_bilstm", "tokens": ["adidas", "trefoil", "shirts", "for", "men"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O", "O"]}
+{"query_id": "218", "query_index": 40, "model": "bert_ner", "tokens": ["adidas", "trefoil", "shirts", "for", "men"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O", "O"]}
+{"query_id": "218", "query_index": 40, "model": "roberta_ner", "tokens": ["adidas", "trefoil", "shirts", "for", "men"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O", "O"]}
+{"query_id": "652", "query_index": 41, "model": "bilstm_crf", "tokens": ["fishing", "waiters", "with", "pockets"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "652", "query_index": 41, "model": "cnn_bilstm", "tokens": ["fishing", "waiters", "with", "pockets"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "652", "query_index": 41, "model": "bert_ner", "tokens": ["fishing", "waiters", "with", "pockets"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "652", "query_index": 41, "model": "roberta_ner", "tokens": ["fishing", "waiters", "with", "pockets"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "359", "query_index": 42, "model": "bilstm_crf", "tokens": ["yelloe", "wooden", "boxes"], "gold_tags": ["O", "B-MATERIAL", "O"], "pred_tags": ["O", "B-MATERIAL", "O"]}
+{"query_id": "359", "query_index": 42, "model": "cnn_bilstm", "tokens": ["yelloe", "wooden", "boxes"], "gold_tags": ["O", "B-MATERIAL", "O"], "pred_tags": ["O", "B-MATERIAL", "O"]}
+{"query_id": "359", "query_index": 42, "model": "bert_ner", "tokens": ["yelloe", "wooden", "boxes"], "gold_tags": ["O", "B-MATERIAL", "O"], "pred_tags": ["O", "B-MATERIAL", "O"]}
+{"query_id": "359", "query_index": 42, "model": "roberta_ner", "tokens": ["yelloe", "wooden", "boxes"], "gold_tags": ["O", "B-MATERIAL", "O"], "pred_tags": ["O", "B-MATERIAL", "O"]}
+{"query_id": "296", "query_index": 43, "model": "bilstm_crf", "tokens": ["exteranl", "dvd", "case"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "296", "query_index": 43, "model": "cnn_bilstm", "tokens": ["exteranl", "dvd", "case"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "296", "query_index": 43, "model": "bert_ner", "tokens": ["exteranl", "dvd", "case"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "296", "query_index": 43, "model": "roberta_ner", "tokens": ["exteranl", "dvd", "case"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "39", "query_index": 44, "model": "bilstm_crf", "tokens": ["plastic", "pit", "balls"], "gold_tags": ["B-MATERIAL", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-MATERIAL", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "39", "query_index": 44, "model": "cnn_bilstm", "tokens": ["plastic", "pit", "balls"], "gold_tags": ["B-MATERIAL", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-MATERIAL", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "39", "query_index": 44, "model": "bert_ner", "tokens": ["plastic", "pit", "balls"], "gold_tags": ["B-MATERIAL", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-MATERIAL", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "39", "query_index": 44, "model": "roberta_ner", "tokens": ["plastic", "pit", "balls"], "gold_tags": ["B-MATERIAL", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-MATERIAL", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "209", "query_index": 45, "model": "bilstm_crf", "tokens": ["football", "cleats", "men"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "209", "query_index": 45, "model": "cnn_bilstm", "tokens": ["football", "cleats", "men"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "209", "query_index": 45, "model": "bert_ner", "tokens": ["football", "cleats", "men"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "209", "query_index": 45, "model": "roberta_ner", "tokens": ["football", "cleats", "men"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "33", "query_index": 46, "model": "bilstm_crf", "tokens": ["side", "post", "battery", "for", "a"], "gold_tags": ["B-COLOR", "I-COLOR", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "33", "query_index": 46, "model": "cnn_bilstm", "tokens": ["side", "post", "battery", "for", "a"], "gold_tags": ["B-COLOR", "I-COLOR", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "33", "query_index": 46, "model": "bert_ner", "tokens": ["side", "post", "battery", "for", "a"], "gold_tags": ["B-COLOR", "I-COLOR", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "33", "query_index": 46, "model": "roberta_ner", "tokens": ["side", "post", "battery", "for", "a"], "gold_tags": ["B-COLOR", "I-COLOR", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "536", "query_index": 47, "model": "bilstm_crf", "tokens": ["cassette", "tape", "tapestry"], "gold_tags": ["B-COLOR", "I-COLOR", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "536", "query_index": 47, "model": "cnn_bilstm", "tokens": ["cassette", "tape", "tapestry"], "gold_tags": ["B-COLOR", "I-COLOR", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "536", "query_index": 47, "model": "bert_ner", "tokens": ["cassette", "tape", "tapestry"], "gold_tags": ["B-COLOR", "I-COLOR", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "536", "query_index": 47, "model": "roberta_ner", "tokens": ["cassette", "tape", "tapestry"], "gold_tags": ["B-COLOR", "I-COLOR", "O"], "pred_tags": ["B-COLOR", "I-COLOR", "B-PRODUCT_TYPE"]}
+{"query_id": "823", "query_index": 48, "model": "bilstm_crf", "tokens": ["aorus", "gamiing", "box"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "823", "query_index": 48, "model": "cnn_bilstm", "tokens": ["aorus", "gamiing", "box"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "823", "query_index": 48, "model": "bert_ner", "tokens": ["aorus", "gamiing", "box"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "823", "query_index": 48, "model": "roberta_ner", "tokens": ["aorus", "gamiing", "box"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "994", "query_index": 49, "model": "bilstm_crf", "tokens": ["holiday", "gifts", "for", "coworkers"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "994", "query_index": 49, "model": "cnn_bilstm", "tokens": ["holiday", "gifts", "for", "coworkers"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "994", "query_index": 49, "model": "bert_ner", "tokens": ["holiday", "gifts", "for", "coworkers"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "994", "query_index": 49, "model": "roberta_ner", "tokens": ["holiday", "gifts", "for", "coworkers"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "494", "query_index": 50, "model": "bilstm_crf", "tokens": ["10k", "gold", "ring", "without", "stones"], "gold_tags": ["O", "B-COLOR", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "B-COLOR", "O", "O", "O"]}
+{"query_id": "494", "query_index": 50, "model": "cnn_bilstm", "tokens": ["10k", "gold", "ring", "without", "stones"], "gold_tags": ["O", "B-COLOR", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "494", "query_index": 50, "model": "bert_ner", "tokens": ["10k", "gold", "ring", "without", "stones"], "gold_tags": ["O", "B-COLOR", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "494", "query_index": 50, "model": "roberta_ner", "tokens": ["10k", "gold", "ring", "without", "stones"], "gold_tags": ["O", "B-COLOR", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "B-COLOR", "B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "893", "query_index": 51, "model": "bilstm_crf", "tokens": ["controle", "de", "play"], "gold_tags": ["B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "893", "query_index": 51, "model": "cnn_bilstm", "tokens": ["controle", "de", "play"], "gold_tags": ["B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "893", "query_index": 51, "model": "bert_ner", "tokens": ["controle", "de", "play"], "gold_tags": ["B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "893", "query_index": 51, "model": "roberta_ner", "tokens": ["controle", "de", "play"], "gold_tags": ["B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "333", "query_index": 52, "model": "bilstm_crf", "tokens": ["minivan", "accessories"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "333", "query_index": 52, "model": "cnn_bilstm", "tokens": ["minivan", "accessories"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "333", "query_index": 52, "model": "bert_ner", "tokens": ["minivan", "accessories"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "333", "query_index": 52, "model": "roberta_ner", "tokens": ["minivan", "accessories"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "289", "query_index": 53, "model": "bilstm_crf", "tokens": ["expanding", "file", "folders"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "289", "query_index": 53, "model": "cnn_bilstm", "tokens": ["expanding", "file", "folders"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "289", "query_index": 53, "model": "bert_ner", "tokens": ["expanding", "file", "folders"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "289", "query_index": 53, "model": "roberta_ner", "tokens": ["expanding", "file", "folders"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "428", "query_index": 54, "model": "bilstm_crf", "tokens": ["women", "s", "skirts", "below", "knee"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "428", "query_index": 54, "model": "cnn_bilstm", "tokens": ["women", "s", "skirts", "below", "knee"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "428", "query_index": 54, "model": "bert_ner", "tokens": ["women", "s", "skirts", "below", "knee"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "428", "query_index": 54, "model": "roberta_ner", "tokens": ["women", "s", "skirts", "below", "knee"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "81", "query_index": 55, "model": "bilstm_crf", "tokens": ["nancy", "etcoff"], "gold_tags": ["B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "81", "query_index": 55, "model": "cnn_bilstm", "tokens": ["nancy", "etcoff"], "gold_tags": ["B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "81", "query_index": 55, "model": "bert_ner", "tokens": ["nancy", "etcoff"], "gold_tags": ["B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "81", "query_index": 55, "model": "roberta_ner", "tokens": ["nancy", "etcoff"], "gold_tags": ["B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "88", "query_index": 56, "model": "bilstm_crf", "tokens": ["flannel", "jackets", "for", "men"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "88", "query_index": 56, "model": "cnn_bilstm", "tokens": ["flannel", "jackets", "for", "men"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "88", "query_index": 56, "model": "bert_ner", "tokens": ["flannel", "jackets", "for", "men"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "88", "query_index": 56, "model": "roberta_ner", "tokens": ["flannel", "jackets", "for", "men"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "522", "query_index": 57, "model": "bilstm_crf", "tokens": ["rectangular", "flower", "pot"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "522", "query_index": 57, "model": "cnn_bilstm", "tokens": ["rectangular", "flower", "pot"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "522", "query_index": 57, "model": "bert_ner", "tokens": ["rectangular", "flower", "pot"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "522", "query_index": 57, "model": "roberta_ner", "tokens": ["rectangular", "flower", "pot"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "656", "query_index": 58, "model": "bilstm_crf", "tokens": ["posters", "of", "harley", "davidson", "motorcycles"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "656", "query_index": 58, "model": "cnn_bilstm", "tokens": ["posters", "of", "harley", "davidson", "motorcycles"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "656", "query_index": 58, "model": "bert_ner", "tokens": ["posters", "of", "harley", "davidson", "motorcycles"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "656", "query_index": 58, "model": "roberta_ner", "tokens": ["posters", "of", "harley", "davidson", "motorcycles"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "235", "query_index": 59, "model": "bilstm_crf", "tokens": ["valve", "spring", "compressor"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "235", "query_index": 59, "model": "cnn_bilstm", "tokens": ["valve", "spring", "compressor"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "235", "query_index": 59, "model": "bert_ner", "tokens": ["valve", "spring", "compressor"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "235", "query_index": 59, "model": "roberta_ner", "tokens": ["valve", "spring", "compressor"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "481", "query_index": 60, "model": "bilstm_crf", "tokens": ["1.8", "cu", "feet", "refrigerator", "without", "freezer"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "481", "query_index": 60, "model": "cnn_bilstm", "tokens": ["1.8", "cu", "feet", "refrigerator", "without", "freezer"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "481", "query_index": 60, "model": "bert_ner", "tokens": ["1.8", "cu", "feet", "refrigerator", "without", "freezer"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "481", "query_index": 60, "model": "roberta_ner", "tokens": ["1.8", "cu", "feet", "refrigerator", "without", "freezer"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "820", "query_index": 61, "model": "bilstm_crf", "tokens": ["titanium", "shovel"], "gold_tags": ["B-MATERIAL", "B-PRODUCT_TYPE"], "pred_tags": ["B-MATERIAL", "B-PRODUCT_TYPE"]}
+{"query_id": "820", "query_index": 61, "model": "cnn_bilstm", "tokens": ["titanium", "shovel"], "gold_tags": ["B-MATERIAL", "B-PRODUCT_TYPE"], "pred_tags": ["B-MATERIAL", "O"]}
+{"query_id": "820", "query_index": 61, "model": "bert_ner", "tokens": ["titanium", "shovel"], "gold_tags": ["B-MATERIAL", "B-PRODUCT_TYPE"], "pred_tags": ["B-MATERIAL", "B-PRODUCT_TYPE"]}
+{"query_id": "820", "query_index": 61, "model": "roberta_ner", "tokens": ["titanium", "shovel"], "gold_tags": ["B-MATERIAL", "B-PRODUCT_TYPE"], "pred_tags": ["B-MATERIAL", "B-PRODUCT_TYPE"]}
+{"query_id": "626", "query_index": 62, "model": "bilstm_crf", "tokens": ["nerf", "rival", "attachments"], "gold_tags": ["B-BRAND", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "626", "query_index": 62, "model": "cnn_bilstm", "tokens": ["nerf", "rival", "attachments"], "gold_tags": ["B-BRAND", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "626", "query_index": 62, "model": "bert_ner", "tokens": ["nerf", "rival", "attachments"], "gold_tags": ["B-BRAND", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "626", "query_index": 62, "model": "roberta_ner", "tokens": ["nerf", "rival", "attachments"], "gold_tags": ["B-BRAND", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "137", "query_index": 63, "model": "bilstm_crf", "tokens": ["jigsaw", "puzzles", "large", "pieces", "for", "seniors"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-SIZE_MEASURE", "O", "O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "B-SIZE_MEASURE", "O", "O", "O"]}
+{"query_id": "137", "query_index": 63, "model": "cnn_bilstm", "tokens": ["jigsaw", "puzzles", "large", "pieces", "for", "seniors"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-SIZE_MEASURE", "O", "O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "B-SIZE_MEASURE", "O", "O", "O"]}
+{"query_id": "137", "query_index": 63, "model": "bert_ner", "tokens": ["jigsaw", "puzzles", "large", "pieces", "for", "seniors"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-SIZE_MEASURE", "O", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-SIZE_MEASURE", "O", "O", "O"]}
+{"query_id": "137", "query_index": 63, "model": "roberta_ner", "tokens": ["jigsaw", "puzzles", "large", "pieces", "for", "seniors"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-SIZE_MEASURE", "O", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-SIZE_MEASURE", "O", "O", "O"]}
+{"query_id": "989", "query_index": 64, "model": "bilstm_crf", "tokens": ["lime", "green", "twin", "fitted", "sheet"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "989", "query_index": 64, "model": "cnn_bilstm", "tokens": ["lime", "green", "twin", "fitted", "sheet"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "989", "query_index": 64, "model": "bert_ner", "tokens": ["lime", "green", "twin", "fitted", "sheet"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "989", "query_index": 64, "model": "roberta_ner", "tokens": ["lime", "green", "twin", "fitted", "sheet"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "346", "query_index": 65, "model": "bilstm_crf", "tokens": ["paint", "by", "numbers", "for", "adults", "realistic", "owls"], "gold_tags": ["O", "O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "346", "query_index": 65, "model": "cnn_bilstm", "tokens": ["paint", "by", "numbers", "for", "adults", "realistic", "owls"], "gold_tags": ["O", "O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "346", "query_index": 65, "model": "bert_ner", "tokens": ["paint", "by", "numbers", "for", "adults", "realistic", "owls"], "gold_tags": ["O", "O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "346", "query_index": 65, "model": "roberta_ner", "tokens": ["paint", "by", "numbers", "for", "adults", "realistic", "owls"], "gold_tags": ["O", "O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "371", "query_index": 66, "model": "bilstm_crf", "tokens": ["lightning", "cables"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "371", "query_index": 66, "model": "cnn_bilstm", "tokens": ["lightning", "cables"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "371", "query_index": 66, "model": "bert_ner", "tokens": ["lightning", "cables"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "371", "query_index": 66, "model": "roberta_ner", "tokens": ["lightning", "cables"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "519", "query_index": 67, "model": "bilstm_crf", "tokens": ["christmas", "stamp"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "519", "query_index": 67, "model": "cnn_bilstm", "tokens": ["christmas", "stamp"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "519", "query_index": 67, "model": "bert_ner", "tokens": ["christmas", "stamp"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "519", "query_index": 67, "model": "roberta_ner", "tokens": ["christmas", "stamp"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "617", "query_index": 68, "model": "bilstm_crf", "tokens": ["narrow", "end", "table", "for", "livungroom"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "617", "query_index": 68, "model": "cnn_bilstm", "tokens": ["narrow", "end", "table", "for", "livungroom"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "617", "query_index": 68, "model": "bert_ner", "tokens": ["narrow", "end", "table", "for", "livungroom"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "617", "query_index": 68, "model": "roberta_ner", "tokens": ["narrow", "end", "table", "for", "livungroom"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "355", "query_index": 69, "model": "bilstm_crf", "tokens": ["easter", "socks", "men"], "gold_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "355", "query_index": 69, "model": "cnn_bilstm", "tokens": ["easter", "socks", "men"], "gold_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "355", "query_index": 69, "model": "bert_ner", "tokens": ["easter", "socks", "men"], "gold_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "355", "query_index": 69, "model": "roberta_ner", "tokens": ["easter", "socks", "men"], "gold_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "168", "query_index": 70, "model": "bilstm_crf", "tokens": ["martin", "tshirt", "women"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "168", "query_index": 70, "model": "cnn_bilstm", "tokens": ["martin", "tshirt", "women"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "168", "query_index": 70, "model": "bert_ner", "tokens": ["martin", "tshirt", "women"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "168", "query_index": 70, "model": "roberta_ner", "tokens": ["martin", "tshirt", "women"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "583", "query_index": 71, "model": "bilstm_crf", "tokens": ["remote", "ride", "on", "cars", "for", "kids"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "583", "query_index": 71, "model": "cnn_bilstm", "tokens": ["remote", "ride", "on", "cars", "for", "kids"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "583", "query_index": 71, "model": "bert_ner", "tokens": ["remote", "ride", "on", "cars", "for", "kids"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "583", "query_index": 71, "model": "roberta_ner", "tokens": ["remote", "ride", "on", "cars", "for", "kids"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "344", "query_index": 72, "model": "bilstm_crf", "tokens": ["accordion", "straps"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "344", "query_index": 72, "model": "cnn_bilstm", "tokens": ["accordion", "straps"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "344", "query_index": 72, "model": "bert_ner", "tokens": ["accordion", "straps"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "344", "query_index": 72, "model": "roberta_ner", "tokens": ["accordion", "straps"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE"]}
+{"query_id": "199", "query_index": 73, "model": "bilstm_crf", "tokens": ["miracle", "sponges", "kitchen", "with", "scraper"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "199", "query_index": 73, "model": "cnn_bilstm", "tokens": ["miracle", "sponges", "kitchen", "with", "scraper"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "199", "query_index": 73, "model": "bert_ner", "tokens": ["miracle", "sponges", "kitchen", "with", "scraper"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O", "O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "O", "O"]}
+{"query_id": "199", "query_index": 73, "model": "roberta_ner", "tokens": ["miracle", "sponges", "kitchen", "with", "scraper"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O", "O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "O", "O"]}
+{"query_id": "800", "query_index": 74, "model": "bilstm_crf", "tokens": ["library", "organization"], "gold_tags": ["O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O"]}
+{"query_id": "800", "query_index": 74, "model": "cnn_bilstm", "tokens": ["library", "organization"], "gold_tags": ["O", "O"], "pred_tags": ["B-BRAND", "O"]}
+{"query_id": "800", "query_index": 74, "model": "bert_ner", "tokens": ["library", "organization"], "gold_tags": ["O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O"]}
+{"query_id": "800", "query_index": 74, "model": "roberta_ner", "tokens": ["library", "organization"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "239", "query_index": 75, "model": "bilstm_crf", "tokens": ["hola", "magazine"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "239", "query_index": 75, "model": "cnn_bilstm", "tokens": ["hola", "magazine"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "239", "query_index": 75, "model": "bert_ner", "tokens": ["hola", "magazine"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "239", "query_index": 75, "model": "roberta_ner", "tokens": ["hola", "magazine"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE"]}
+{"query_id": "275", "query_index": 76, "model": "bilstm_crf", "tokens": ["whatever", "after", "series", "14"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "275", "query_index": 76, "model": "cnn_bilstm", "tokens": ["whatever", "after", "series", "14"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "275", "query_index": 76, "model": "bert_ner", "tokens": ["whatever", "after", "series", "14"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "275", "query_index": 76, "model": "roberta_ner", "tokens": ["whatever", "after", "series", "14"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "318", "query_index": 77, "model": "bilstm_crf", "tokens": ["aloe", "concentrate", "flavored"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "318", "query_index": 77, "model": "cnn_bilstm", "tokens": ["aloe", "concentrate", "flavored"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "318", "query_index": 77, "model": "bert_ner", "tokens": ["aloe", "concentrate", "flavored"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "318", "query_index": 77, "model": "roberta_ner", "tokens": ["aloe", "concentrate", "flavored"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "662", "query_index": 78, "model": "bilstm_crf", "tokens": ["casco", "icon", "para", "moto"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "662", "query_index": 78, "model": "cnn_bilstm", "tokens": ["casco", "icon", "para", "moto"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "662", "query_index": 78, "model": "bert_ner", "tokens": ["casco", "icon", "para", "moto"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "662", "query_index": 78, "model": "roberta_ner", "tokens": ["casco", "icon", "para", "moto"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "227", "query_index": 79, "model": "bilstm_crf", "tokens": ["blue", "lightsaber"], "gold_tags": ["B-COLOR", "B-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE"]}
+{"query_id": "227", "query_index": 79, "model": "cnn_bilstm", "tokens": ["blue", "lightsaber"], "gold_tags": ["B-COLOR", "B-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "O"]}
+{"query_id": "227", "query_index": 79, "model": "bert_ner", "tokens": ["blue", "lightsaber"], "gold_tags": ["B-COLOR", "B-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE"]}
+{"query_id": "227", "query_index": 79, "model": "roberta_ner", "tokens": ["blue", "lightsaber"], "gold_tags": ["B-COLOR", "B-PRODUCT_TYPE"], "pred_tags": ["B-COLOR", "O"]}
+{"query_id": "650", "query_index": 80, "model": "bilstm_crf", "tokens": ["kresley", "cole", "immortals", "after", "dark"], "gold_tags": ["O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "650", "query_index": 80, "model": "cnn_bilstm", "tokens": ["kresley", "cole", "immortals", "after", "dark"], "gold_tags": ["O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "650", "query_index": 80, "model": "bert_ner", "tokens": ["kresley", "cole", "immortals", "after", "dark"], "gold_tags": ["O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-BRAND", "O", "O", "O", "O"]}
+{"query_id": "650", "query_index": 80, "model": "roberta_ner", "tokens": ["kresley", "cole", "immortals", "after", "dark"], "gold_tags": ["O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "I-BRAND", "O", "O"]}
+{"query_id": "941", "query_index": 81, "model": "bilstm_crf", "tokens": ["packable", "puffer", "jacket", "women"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "941", "query_index": 81, "model": "cnn_bilstm", "tokens": ["packable", "puffer", "jacket", "women"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "941", "query_index": 81, "model": "bert_ner", "tokens": ["packable", "puffer", "jacket", "women"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "941", "query_index": 81, "model": "roberta_ner", "tokens": ["packable", "puffer", "jacket", "women"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "319", "query_index": 82, "model": "bilstm_crf", "tokens": ["white", "shirts", "for", "men"], "gold_tags": ["B-COLOR", "O", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O", "O"]}
+{"query_id": "319", "query_index": 82, "model": "cnn_bilstm", "tokens": ["white", "shirts", "for", "men"], "gold_tags": ["B-COLOR", "O", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O", "O"]}
+{"query_id": "319", "query_index": 82, "model": "bert_ner", "tokens": ["white", "shirts", "for", "men"], "gold_tags": ["B-COLOR", "O", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O", "O"]}
+{"query_id": "319", "query_index": 82, "model": "roberta_ner", "tokens": ["white", "shirts", "for", "men"], "gold_tags": ["B-COLOR", "O", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O", "O"]}
+{"query_id": "237", "query_index": 83, "model": "bilstm_crf", "tokens": ["iowa", "cyclones", "womens", "apparel"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "237", "query_index": 83, "model": "cnn_bilstm", "tokens": ["iowa", "cyclones", "womens", "apparel"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "237", "query_index": 83, "model": "bert_ner", "tokens": ["iowa", "cyclones", "womens", "apparel"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "237", "query_index": 83, "model": "roberta_ner", "tokens": ["iowa", "cyclones", "womens", "apparel"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["B-COLOR", "O", "O", "O"]}
+{"query_id": "307", "query_index": 84, "model": "bilstm_crf", "tokens": ["5", "pull", "cord"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "307", "query_index": 84, "model": "cnn_bilstm", "tokens": ["5", "pull", "cord"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "307", "query_index": 84, "model": "bert_ner", "tokens": ["5", "pull", "cord"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "307", "query_index": 84, "model": "roberta_ner", "tokens": ["5", "pull", "cord"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "86", "query_index": 85, "model": "bilstm_crf", "tokens": ["100", "languages", "i", "love", "you", "without", "card"], "gold_tags": ["O", "O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "86", "query_index": 85, "model": "cnn_bilstm", "tokens": ["100", "languages", "i", "love", "you", "without", "card"], "gold_tags": ["O", "O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "86", "query_index": 85, "model": "bert_ner", "tokens": ["100", "languages", "i", "love", "you", "without", "card"], "gold_tags": ["O", "O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "86", "query_index": 85, "model": "roberta_ner", "tokens": ["100", "languages", "i", "love", "you", "without", "card"], "gold_tags": ["O", "O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "534", "query_index": 86, "model": "bilstm_crf", "tokens": ["fake", "water", "lotus"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "534", "query_index": 86, "model": "cnn_bilstm", "tokens": ["fake", "water", "lotus"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "534", "query_index": 86, "model": "bert_ner", "tokens": ["fake", "water", "lotus"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "534", "query_index": 86, "model": "roberta_ner", "tokens": ["fake", "water", "lotus"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "590", "query_index": 87, "model": "bilstm_crf", "tokens": ["the", "cars", "cd", "boxset"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "590", "query_index": 87, "model": "cnn_bilstm", "tokens": ["the", "cars", "cd", "boxset"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "590", "query_index": 87, "model": "bert_ner", "tokens": ["the", "cars", "cd", "boxset"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "590", "query_index": 87, "model": "roberta_ner", "tokens": ["the", "cars", "cd", "boxset"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"]}
+{"query_id": "899", "query_index": 88, "model": "bilstm_crf", "tokens": ["light", "jackets", "for", "women"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "899", "query_index": 88, "model": "cnn_bilstm", "tokens": ["light", "jackets", "for", "women"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "899", "query_index": 88, "model": "bert_ner", "tokens": ["light", "jackets", "for", "women"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "899", "query_index": 88, "model": "roberta_ner", "tokens": ["light", "jackets", "for", "women"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "811", "query_index": 89, "model": "bilstm_crf", "tokens": ["bullfrog", "kicker", "bf400"], "gold_tags": ["O", "B-BRAND", "O"], "pred_tags": ["O", "B-BRAND", "O"]}
+{"query_id": "811", "query_index": 89, "model": "cnn_bilstm", "tokens": ["bullfrog", "kicker", "bf400"], "gold_tags": ["O", "B-BRAND", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "811", "query_index": 89, "model": "bert_ner", "tokens": ["bullfrog", "kicker", "bf400"], "gold_tags": ["O", "B-BRAND", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "811", "query_index": 89, "model": "roberta_ner", "tokens": ["bullfrog", "kicker", "bf400"], "gold_tags": ["O", "B-BRAND", "O"], "pred_tags": ["O", "B-BRAND", "O"]}
+{"query_id": "213", "query_index": 90, "model": "bilstm_crf", "tokens": ["hard", "drive", "enclosure", "smb"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "213", "query_index": 90, "model": "cnn_bilstm", "tokens": ["hard", "drive", "enclosure", "smb"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "213", "query_index": 90, "model": "bert_ner", "tokens": ["hard", "drive", "enclosure", "smb"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "213", "query_index": 90, "model": "roberta_ner", "tokens": ["hard", "drive", "enclosure", "smb"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "351", "query_index": 91, "model": "bilstm_crf", "tokens": ["classic", "van", "s", "men", "old", "school"], "gold_tags": ["O", "B-BRAND", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "B-BRAND", "O", "O", "O", "O"]}
+{"query_id": "351", "query_index": 91, "model": "cnn_bilstm", "tokens": ["classic", "van", "s", "men", "old", "school"], "gold_tags": ["O", "B-BRAND", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "B-BRAND", "O", "O", "O", "O"]}
+{"query_id": "351", "query_index": 91, "model": "bert_ner", "tokens": ["classic", "van", "s", "men", "old", "school"], "gold_tags": ["O", "B-BRAND", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "B-BRAND", "O", "O", "O", "O"]}
+{"query_id": "351", "query_index": 91, "model": "roberta_ner", "tokens": ["classic", "van", "s", "men", "old", "school"], "gold_tags": ["O", "B-BRAND", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O", "O"], "pred_tags": ["O", "B-BRAND", "O", "O", "O", "O"]}
+{"query_id": "70", "query_index": 92, "model": "bilstm_crf", "tokens": ["60s", "wigs", "for", "women"], "gold_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "70", "query_index": 92, "model": "cnn_bilstm", "tokens": ["60s", "wigs", "for", "women"], "gold_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "70", "query_index": 92, "model": "bert_ner", "tokens": ["60s", "wigs", "for", "women"], "gold_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "70", "query_index": 92, "model": "roberta_ner", "tokens": ["60s", "wigs", "for", "women"], "gold_tags": ["O", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "896", "query_index": 93, "model": "bilstm_crf", "tokens": ["posh", "beanbags"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "896", "query_index": 93, "model": "cnn_bilstm", "tokens": ["posh", "beanbags"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "896", "query_index": 93, "model": "bert_ner", "tokens": ["posh", "beanbags"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "896", "query_index": 93, "model": "roberta_ner", "tokens": ["posh", "beanbags"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "584", "query_index": 94, "model": "bilstm_crf", "tokens": ["charmed", "poster"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "584", "query_index": 94, "model": "cnn_bilstm", "tokens": ["charmed", "poster"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "584", "query_index": 94, "model": "bert_ner", "tokens": ["charmed", "poster"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "584", "query_index": 94, "model": "roberta_ner", "tokens": ["charmed", "poster"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "280", "query_index": 95, "model": "bilstm_crf", "tokens": ["gaming", "things", "tv"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "280", "query_index": 95, "model": "cnn_bilstm", "tokens": ["gaming", "things", "tv"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "280", "query_index": 95, "model": "bert_ner", "tokens": ["gaming", "things", "tv"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "280", "query_index": 95, "model": "roberta_ner", "tokens": ["gaming", "things", "tv"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "677", "query_index": 96, "model": "bilstm_crf", "tokens": ["plastic", "mesh", "sheet"], "gold_tags": ["B-MATERIAL", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-MATERIAL", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "677", "query_index": 96, "model": "cnn_bilstm", "tokens": ["plastic", "mesh", "sheet"], "gold_tags": ["B-MATERIAL", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-MATERIAL", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "677", "query_index": 96, "model": "bert_ner", "tokens": ["plastic", "mesh", "sheet"], "gold_tags": ["B-MATERIAL", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-MATERIAL", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "677", "query_index": 96, "model": "roberta_ner", "tokens": ["plastic", "mesh", "sheet"], "gold_tags": ["B-MATERIAL", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-MATERIAL", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "244", "query_index": 97, "model": "bilstm_crf", "tokens": ["silver", "tablecloth", "120"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-COLOR", "O", "O"]}
+{"query_id": "244", "query_index": 97, "model": "cnn_bilstm", "tokens": ["silver", "tablecloth", "120"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "244", "query_index": 97, "model": "bert_ner", "tokens": ["silver", "tablecloth", "120"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "244", "query_index": 97, "model": "roberta_ner", "tokens": ["silver", "tablecloth", "120"], "gold_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "523", "query_index": 98, "model": "bilstm_crf", "tokens": ["coast", "soap", "bars", "original"], "gold_tags": ["B-BRAND", "O", "B-PRODUCT_TYPE", "B-COLOR"], "pred_tags": ["B-BRAND", "O", "O", "O"]}
+{"query_id": "523", "query_index": 98, "model": "cnn_bilstm", "tokens": ["coast", "soap", "bars", "original"], "gold_tags": ["B-BRAND", "O", "B-PRODUCT_TYPE", "B-COLOR"], "pred_tags": ["B-BRAND", "O", "O", "O"]}
+{"query_id": "523", "query_index": 98, "model": "bert_ner", "tokens": ["coast", "soap", "bars", "original"], "gold_tags": ["B-BRAND", "O", "B-PRODUCT_TYPE", "B-COLOR"], "pred_tags": ["B-BRAND", "O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "523", "query_index": 98, "model": "roberta_ner", "tokens": ["coast", "soap", "bars", "original"], "gold_tags": ["B-BRAND", "O", "B-PRODUCT_TYPE", "B-COLOR"], "pred_tags": ["B-BRAND", "O", "B-PRODUCT_TYPE", "B-COLOR"]}
+{"query_id": "866", "query_index": 99, "model": "bilstm_crf", "tokens": ["lego", "ninjago", "costume"], "gold_tags": ["B-BRAND", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "866", "query_index": 99, "model": "cnn_bilstm", "tokens": ["lego", "ninjago", "costume"], "gold_tags": ["B-BRAND", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "866", "query_index": 99, "model": "bert_ner", "tokens": ["lego", "ninjago", "costume"], "gold_tags": ["B-BRAND", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "866", "query_index": 99, "model": "roberta_ner", "tokens": ["lego", "ninjago", "costume"], "gold_tags": ["B-BRAND", "O", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "904", "query_index": 100, "model": "bilstm_crf", "tokens": ["solid", "color", "iphone", "8", "plus", "case"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "904", "query_index": 100, "model": "cnn_bilstm", "tokens": ["solid", "color", "iphone", "8", "plus", "case"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "904", "query_index": 100, "model": "bert_ner", "tokens": ["solid", "color", "iphone", "8", "plus", "case"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "O", "O", "O"]}
+{"query_id": "904", "query_index": 100, "model": "roberta_ner", "tokens": ["solid", "color", "iphone", "8", "plus", "case"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "543", "query_index": 101, "model": "bilstm_crf", "tokens": ["sauder", "craft", "pro", "series"], "gold_tags": ["B-BRAND", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O"]}
+{"query_id": "543", "query_index": 101, "model": "cnn_bilstm", "tokens": ["sauder", "craft", "pro", "series"], "gold_tags": ["B-BRAND", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O"]}
+{"query_id": "543", "query_index": 101, "model": "bert_ner", "tokens": ["sauder", "craft", "pro", "series"], "gold_tags": ["B-BRAND", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O"]}
+{"query_id": "543", "query_index": 101, "model": "roberta_ner", "tokens": ["sauder", "craft", "pro", "series"], "gold_tags": ["B-BRAND", "O", "O", "O"], "pred_tags": ["B-BRAND", "O", "O", "O"]}
+{"query_id": "139", "query_index": 102, "model": "bilstm_crf", "tokens": ["jerry", "cans"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "139", "query_index": 102, "model": "cnn_bilstm", "tokens": ["jerry", "cans"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "139", "query_index": 102, "model": "bert_ner", "tokens": ["jerry", "cans"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "139", "query_index": 102, "model": "roberta_ner", "tokens": ["jerry", "cans"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "526", "query_index": 103, "model": "bilstm_crf", "tokens": ["closet", "storage"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "526", "query_index": 103, "model": "cnn_bilstm", "tokens": ["closet", "storage"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "526", "query_index": 103, "model": "bert_ner", "tokens": ["closet", "storage"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "526", "query_index": 103, "model": "roberta_ner", "tokens": ["closet", "storage"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "868", "query_index": 104, "model": "bilstm_crf", "tokens": ["2", "quart", "canteen"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "868", "query_index": 104, "model": "cnn_bilstm", "tokens": ["2", "quart", "canteen"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "868", "query_index": 104, "model": "bert_ner", "tokens": ["2", "quart", "canteen"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "868", "query_index": 104, "model": "roberta_ner", "tokens": ["2", "quart", "canteen"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "O"]}
+{"query_id": "2", "query_index": 105, "model": "bilstm_crf", "tokens": ["prebio", "thrive", "powder", "by", "dr", "gundry"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "2", "query_index": 105, "model": "cnn_bilstm", "tokens": ["prebio", "thrive", "powder", "by", "dr", "gundry"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "2", "query_index": 105, "model": "bert_ner", "tokens": ["prebio", "thrive", "powder", "by", "dr", "gundry"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "I-BRAND"]}
+{"query_id": "2", "query_index": 105, "model": "roberta_ner", "tokens": ["prebio", "thrive", "powder", "by", "dr", "gundry"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "44", "query_index": 106, "model": "bilstm_crf", "tokens": ["ugly", "stik", "custom"], "gold_tags": ["B-BRAND", "I-BRAND", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "44", "query_index": 106, "model": "cnn_bilstm", "tokens": ["ugly", "stik", "custom"], "gold_tags": ["B-BRAND", "I-BRAND", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "44", "query_index": 106, "model": "bert_ner", "tokens": ["ugly", "stik", "custom"], "gold_tags": ["B-BRAND", "I-BRAND", "O"], "pred_tags": ["B-BRAND", "I-BRAND", "O"]}
+{"query_id": "44", "query_index": 106, "model": "roberta_ner", "tokens": ["ugly", "stik", "custom"], "gold_tags": ["B-BRAND", "I-BRAND", "O"], "pred_tags": ["B-BRAND", "I-BRAND", "O"]}
+{"query_id": "761", "query_index": 107, "model": "bilstm_crf", "tokens": ["10k", "audio", "transformer"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "761", "query_index": 107, "model": "cnn_bilstm", "tokens": ["10k", "audio", "transformer"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "761", "query_index": 107, "model": "bert_ner", "tokens": ["10k", "audio", "transformer"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "761", "query_index": 107, "model": "roberta_ner", "tokens": ["10k", "audio", "transformer"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "670", "query_index": 108, "model": "bilstm_crf", "tokens": ["watch", "for", "falling", "rocks"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O", "O"]}
+{"query_id": "670", "query_index": 108, "model": "cnn_bilstm", "tokens": ["watch", "for", "falling", "rocks"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O", "O"]}
+{"query_id": "670", "query_index": 108, "model": "bert_ner", "tokens": ["watch", "for", "falling", "rocks"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "670", "query_index": 108, "model": "roberta_ner", "tokens": ["watch", "for", "falling", "rocks"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O", "O"]}
+{"query_id": "764", "query_index": 109, "model": "bilstm_crf", "tokens": ["zero", "suit", "samus", "cosplay"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "764", "query_index": 109, "model": "cnn_bilstm", "tokens": ["zero", "suit", "samus", "cosplay"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "764", "query_index": 109, "model": "bert_ner", "tokens": ["zero", "suit", "samus", "cosplay"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "764", "query_index": 109, "model": "roberta_ner", "tokens": ["zero", "suit", "samus", "cosplay"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "265", "query_index": 110, "model": "bilstm_crf", "tokens": ["waist", "beads"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "265", "query_index": 110, "model": "cnn_bilstm", "tokens": ["waist", "beads"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "265", "query_index": 110, "model": "bert_ner", "tokens": ["waist", "beads"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "265", "query_index": 110, "model": "roberta_ner", "tokens": ["waist", "beads"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "97", "query_index": 111, "model": "bilstm_crf", "tokens": ["double", "tab", "aerial", "hoop", "for", "sale", "aerials", "usa"], "gold_tags": ["O", "O", "O", "O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "97", "query_index": 111, "model": "cnn_bilstm", "tokens": ["double", "tab", "aerial", "hoop", "for", "sale", "aerials", "usa"], "gold_tags": ["O", "O", "O", "O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "97", "query_index": 111, "model": "bert_ner", "tokens": ["double", "tab", "aerial", "hoop", "for", "sale", "aerials", "usa"], "gold_tags": ["O", "O", "O", "O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O", "O", "O", "O"]}
+{"query_id": "97", "query_index": 111, "model": "roberta_ner", "tokens": ["double", "tab", "aerial", "hoop", "for", "sale", "aerials", "usa"], "gold_tags": ["O", "O", "O", "O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "998", "query_index": 112, "model": "bilstm_crf", "tokens": ["amazon", "photo", "storage"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "998", "query_index": 112, "model": "cnn_bilstm", "tokens": ["amazon", "photo", "storage"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "998", "query_index": 112, "model": "bert_ner", "tokens": ["amazon", "photo", "storage"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-BRAND", "O", "O"]}
+{"query_id": "998", "query_index": 112, "model": "roberta_ner", "tokens": ["amazon", "photo", "storage"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "84", "query_index": 113, "model": "bilstm_crf", "tokens": ["absorbent", "underwear", "for", "women"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "84", "query_index": 113, "model": "cnn_bilstm", "tokens": ["absorbent", "underwear", "for", "women"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "84", "query_index": 113, "model": "bert_ner", "tokens": ["absorbent", "underwear", "for", "women"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "84", "query_index": 113, "model": "roberta_ner", "tokens": ["absorbent", "underwear", "for", "women"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "109", "query_index": 114, "model": "bilstm_crf", "tokens": ["head", "phones"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "109", "query_index": 114, "model": "cnn_bilstm", "tokens": ["head", "phones"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "109", "query_index": 114, "model": "bert_ner", "tokens": ["head", "phones"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "109", "query_index": 114, "model": "roberta_ner", "tokens": ["head", "phones"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "184", "query_index": 115, "model": "bilstm_crf", "tokens": ["ashwagandha", "liquid"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "184", "query_index": 115, "model": "cnn_bilstm", "tokens": ["ashwagandha", "liquid"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "184", "query_index": 115, "model": "bert_ner", "tokens": ["ashwagandha", "liquid"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "184", "query_index": 115, "model": "roberta_ner", "tokens": ["ashwagandha", "liquid"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "810", "query_index": 116, "model": "bilstm_crf", "tokens": ["table", "lamps", "for", "bedroom"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "810", "query_index": 116, "model": "cnn_bilstm", "tokens": ["table", "lamps", "for", "bedroom"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "810", "query_index": 116, "model": "bert_ner", "tokens": ["table", "lamps", "for", "bedroom"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "810", "query_index": 116, "model": "roberta_ner", "tokens": ["table", "lamps", "for", "bedroom"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "501", "query_index": 117, "model": "bilstm_crf", "tokens": ["small", "ivory", "lamp"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "501", "query_index": 117, "model": "cnn_bilstm", "tokens": ["small", "ivory", "lamp"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-SIZE_MEASURE", "O", "O"]}
+{"query_id": "501", "query_index": 117, "model": "bert_ner", "tokens": ["small", "ivory", "lamp"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-SIZE_MEASURE", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "501", "query_index": 117, "model": "roberta_ner", "tokens": ["small", "ivory", "lamp"], "gold_tags": ["O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-SIZE_MEASURE", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "208", "query_index": 118, "model": "bilstm_crf", "tokens": ["shopkins", "furniture"], "gold_tags": ["B-BRAND", "O"], "pred_tags": ["B-BRAND", "O"]}
+{"query_id": "208", "query_index": 118, "model": "cnn_bilstm", "tokens": ["shopkins", "furniture"], "gold_tags": ["B-BRAND", "O"], "pred_tags": ["B-BRAND", "O"]}
+{"query_id": "208", "query_index": 118, "model": "bert_ner", "tokens": ["shopkins", "furniture"], "gold_tags": ["B-BRAND", "O"], "pred_tags": ["B-BRAND", "O"]}
+{"query_id": "208", "query_index": 118, "model": "roberta_ner", "tokens": ["shopkins", "furniture"], "gold_tags": ["B-BRAND", "O"], "pred_tags": ["B-BRAND", "I-BRAND"]}
+{"query_id": "165", "query_index": 119, "model": "bilstm_crf", "tokens": ["trick", "scooters"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "165", "query_index": 119, "model": "cnn_bilstm", "tokens": ["trick", "scooters"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "165", "query_index": 119, "model": "bert_ner", "tokens": ["trick", "scooters"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "165", "query_index": 119, "model": "roberta_ner", "tokens": ["trick", "scooters"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "30", "query_index": 120, "model": "bilstm_crf", "tokens": ["police", "shirt", "women"], "gold_tags": ["B-COLOR", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "30", "query_index": 120, "model": "cnn_bilstm", "tokens": ["police", "shirt", "women"], "gold_tags": ["B-COLOR", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "30", "query_index": 120, "model": "bert_ner", "tokens": ["police", "shirt", "women"], "gold_tags": ["B-COLOR", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "30", "query_index": 120, "model": "roberta_ner", "tokens": ["police", "shirt", "women"], "gold_tags": ["B-COLOR", "B-PRODUCT_TYPE", "O"], "pred_tags": ["B-COLOR", "O", "O"]}
+{"query_id": "110", "query_index": 121, "model": "bilstm_crf", "tokens": ["mens", "rock", "tee", "shirts"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "110", "query_index": 121, "model": "cnn_bilstm", "tokens": ["mens", "rock", "tee", "shirts"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "110", "query_index": 121, "model": "bert_ner", "tokens": ["mens", "rock", "tee", "shirts"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "110", "query_index": 121, "model": "roberta_ner", "tokens": ["mens", "rock", "tee", "shirts"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "845", "query_index": 122, "model": "bilstm_crf", "tokens": ["rod", "reel", "combo", "spincast"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "845", "query_index": 122, "model": "cnn_bilstm", "tokens": ["rod", "reel", "combo", "spincast"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "845", "query_index": 122, "model": "bert_ner", "tokens": ["rod", "reel", "combo", "spincast"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "845", "query_index": 122, "model": "roberta_ner", "tokens": ["rod", "reel", "combo", "spincast"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "689", "query_index": 123, "model": "bilstm_crf", "tokens": ["shades", "of", "green", "yarn"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "689", "query_index": 123, "model": "cnn_bilstm", "tokens": ["shades", "of", "green", "yarn"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "689", "query_index": 123, "model": "bert_ner", "tokens": ["shades", "of", "green", "yarn"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "689", "query_index": 123, "model": "roberta_ner", "tokens": ["shades", "of", "green", "yarn"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "72", "query_index": 124, "model": "bilstm_crf", "tokens": ["hdmi", "to", "small", "hdmi"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "72", "query_index": 124, "model": "cnn_bilstm", "tokens": ["hdmi", "to", "small", "hdmi"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "B-SIZE_MEASURE", "O"]}
+{"query_id": "72", "query_index": 124, "model": "bert_ner", "tokens": ["hdmi", "to", "small", "hdmi"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "72", "query_index": 124, "model": "roberta_ner", "tokens": ["hdmi", "to", "small", "hdmi"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "894", "query_index": 125, "model": "bilstm_crf", "tokens": ["high", "power", "laser", "pointer"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "894", "query_index": 125, "model": "cnn_bilstm", "tokens": ["high", "power", "laser", "pointer"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "894", "query_index": 125, "model": "bert_ner", "tokens": ["high", "power", "laser", "pointer"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "894", "query_index": 125, "model": "roberta_ner", "tokens": ["high", "power", "laser", "pointer"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE", "O"]}
+{"query_id": "901", "query_index": 126, "model": "bilstm_crf", "tokens": ["lilac", "reed", "diffuser"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "901", "query_index": 126, "model": "cnn_bilstm", "tokens": ["lilac", "reed", "diffuser"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "901", "query_index": 126, "model": "bert_ner", "tokens": ["lilac", "reed", "diffuser"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "901", "query_index": 126, "model": "roberta_ner", "tokens": ["lilac", "reed", "diffuser"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "559", "query_index": 127, "model": "bilstm_crf", "tokens": ["dragon", "ball", "z", "resurrection", "f"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "559", "query_index": 127, "model": "cnn_bilstm", "tokens": ["dragon", "ball", "z", "resurrection", "f"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "559", "query_index": 127, "model": "bert_ner", "tokens": ["dragon", "ball", "z", "resurrection", "f"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "559", "query_index": 127, "model": "roberta_ner", "tokens": ["dragon", "ball", "z", "resurrection", "f"], "gold_tags": ["O", "O", "O", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "408", "query_index": 128, "model": "bilstm_crf", "tokens": ["wobble", "board"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "408", "query_index": 128, "model": "cnn_bilstm", "tokens": ["wobble", "board"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "408", "query_index": 128, "model": "bert_ner", "tokens": ["wobble", "board"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "408", "query_index": 128, "model": "roberta_ner", "tokens": ["wobble", "board"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "290", "query_index": 129, "model": "bilstm_crf", "tokens": ["all", "inch", "one", "desktop", "computer"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "290", "query_index": 129, "model": "cnn_bilstm", "tokens": ["all", "inch", "one", "desktop", "computer"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "290", "query_index": 129, "model": "bert_ner", "tokens": ["all", "inch", "one", "desktop", "computer"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "290", "query_index": 129, "model": "roberta_ner", "tokens": ["all", "inch", "one", "desktop", "computer"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "215", "query_index": 130, "model": "bilstm_crf", "tokens": ["crkt", "razel"], "gold_tags": ["B-BRAND", "O"], "pred_tags": ["B-BRAND", "O"]}
+{"query_id": "215", "query_index": 130, "model": "cnn_bilstm", "tokens": ["crkt", "razel"], "gold_tags": ["B-BRAND", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "215", "query_index": 130, "model": "bert_ner", "tokens": ["crkt", "razel"], "gold_tags": ["B-BRAND", "O"], "pred_tags": ["B-BRAND", "I-BRAND"]}
+{"query_id": "215", "query_index": 130, "model": "roberta_ner", "tokens": ["crkt", "razel"], "gold_tags": ["B-BRAND", "O"], "pred_tags": ["B-BRAND", "O"]}
+{"query_id": "985", "query_index": 131, "model": "bilstm_crf", "tokens": ["tobi", "smart", "watch", "for", "kids", "blue"], "gold_tags": ["O", "O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "985", "query_index": 131, "model": "cnn_bilstm", "tokens": ["tobi", "smart", "watch", "for", "kids", "blue"], "gold_tags": ["O", "O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "985", "query_index": 131, "model": "bert_ner", "tokens": ["tobi", "smart", "watch", "for", "kids", "blue"], "gold_tags": ["O", "O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "985", "query_index": 131, "model": "roberta_ner", "tokens": ["tobi", "smart", "watch", "for", "kids", "blue"], "gold_tags": ["O", "O", "O", "O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O", "O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "314", "query_index": 132, "model": "bilstm_crf", "tokens": ["lion", "head", "bracelet", "for", "men"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "314", "query_index": 132, "model": "cnn_bilstm", "tokens": ["lion", "head", "bracelet", "for", "men"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["B-BRAND", "O", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "314", "query_index": 132, "model": "bert_ner", "tokens": ["lion", "head", "bracelet", "for", "men"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE", "O", "I-PRODUCT_TYPE"]}
+{"query_id": "314", "query_index": 132, "model": "roberta_ner", "tokens": ["lion", "head", "bracelet", "for", "men"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "978", "query_index": 133, "model": "bilstm_crf", "tokens": ["xs", "max", "battery", "case"], "gold_tags": ["B-SIZE_MEASURE", "B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-SIZE_MEASURE", "O", "O", "O"]}
+{"query_id": "978", "query_index": 133, "model": "cnn_bilstm", "tokens": ["xs", "max", "battery", "case"], "gold_tags": ["B-SIZE_MEASURE", "B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-SIZE_MEASURE", "O", "O", "O"]}
+{"query_id": "978", "query_index": 133, "model": "bert_ner", "tokens": ["xs", "max", "battery", "case"], "gold_tags": ["B-SIZE_MEASURE", "B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-SIZE_MEASURE", "O", "O", "O"]}
+{"query_id": "978", "query_index": 133, "model": "roberta_ner", "tokens": ["xs", "max", "battery", "case"], "gold_tags": ["B-SIZE_MEASURE", "B-PRODUCT_TYPE", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-SIZE_MEASURE", "O", "O", "O"]}
+{"query_id": "603", "query_index": 134, "model": "bilstm_crf", "tokens": ["werewolf", "toddler", "costume"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "603", "query_index": 134, "model": "cnn_bilstm", "tokens": ["werewolf", "toddler", "costume"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "603", "query_index": 134, "model": "bert_ner", "tokens": ["werewolf", "toddler", "costume"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "B-PRODUCT_TYPE"]}
+{"query_id": "603", "query_index": 134, "model": "roberta_ner", "tokens": ["werewolf", "toddler", "costume"], "gold_tags": ["O", "O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "118", "query_index": 135, "model": "bilstm_crf", "tokens": ["dragon", "ball", "z", "dvd", "season", "1"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "118", "query_index": 135, "model": "cnn_bilstm", "tokens": ["dragon", "ball", "z", "dvd", "season", "1"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "118", "query_index": 135, "model": "bert_ner", "tokens": ["dragon", "ball", "z", "dvd", "season", "1"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "I-PRODUCT_TYPE"]}
+{"query_id": "118", "query_index": 135, "model": "roberta_ner", "tokens": ["dragon", "ball", "z", "dvd", "season", "1"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "462", "query_index": 136, "model": "bilstm_crf", "tokens": ["henry", "fuller"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "462", "query_index": 136, "model": "cnn_bilstm", "tokens": ["henry", "fuller"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "462", "query_index": 136, "model": "bert_ner", "tokens": ["henry", "fuller"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "462", "query_index": 136, "model": "roberta_ner", "tokens": ["henry", "fuller"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "254", "query_index": 137, "model": "bilstm_crf", "tokens": ["paraglider", "carabiner"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "254", "query_index": 137, "model": "cnn_bilstm", "tokens": ["paraglider", "carabiner"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "O"]}
+{"query_id": "254", "query_index": 137, "model": "bert_ner", "tokens": ["paraglider", "carabiner"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "254", "query_index": 137, "model": "roberta_ner", "tokens": ["paraglider", "carabiner"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "802", "query_index": 138, "model": "bilstm_crf", "tokens": ["squeaky", "inserts"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "802", "query_index": 138, "model": "cnn_bilstm", "tokens": ["squeaky", "inserts"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "802", "query_index": 138, "model": "bert_ner", "tokens": ["squeaky", "inserts"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "802", "query_index": 138, "model": "roberta_ner", "tokens": ["squeaky", "inserts"], "gold_tags": ["O", "O"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "740", "query_index": 139, "model": "bilstm_crf", "tokens": ["men", "costumes", "for", "halloween"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "740", "query_index": 139, "model": "cnn_bilstm", "tokens": ["men", "costumes", "for", "halloween"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "740", "query_index": 139, "model": "bert_ner", "tokens": ["men", "costumes", "for", "halloween"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "740", "query_index": 139, "model": "roberta_ner", "tokens": ["men", "costumes", "for", "halloween"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "432", "query_index": 140, "model": "bilstm_crf", "tokens": ["3tb", "external", "hard", "drive", "usb", "3.0"], "gold_tags": ["O", "O", "O", "O", "B-ATTRIBUTE_VALUE", "O"], "pred_tags": ["O", "O", "O", "O", "B-ATTRIBUTE_VALUE", "O"]}
+{"query_id": "432", "query_index": 140, "model": "cnn_bilstm", "tokens": ["3tb", "external", "hard", "drive", "usb", "3.0"], "gold_tags": ["O", "O", "O", "O", "B-ATTRIBUTE_VALUE", "O"], "pred_tags": ["O", "O", "O", "O", "B-ATTRIBUTE_VALUE", "O"]}
+{"query_id": "432", "query_index": 140, "model": "bert_ner", "tokens": ["3tb", "external", "hard", "drive", "usb", "3.0"], "gold_tags": ["O", "O", "O", "O", "B-ATTRIBUTE_VALUE", "O"], "pred_tags": ["O", "O", "O", "O", "B-ATTRIBUTE_VALUE", "O"]}
+{"query_id": "432", "query_index": 140, "model": "roberta_ner", "tokens": ["3tb", "external", "hard", "drive", "usb", "3.0"], "gold_tags": ["O", "O", "O", "O", "B-ATTRIBUTE_VALUE", "O"], "pred_tags": ["O", "O", "O", "O", "B-ATTRIBUTE_VALUE", "O"]}
+{"query_id": "281", "query_index": 141, "model": "bilstm_crf", "tokens": ["most", "expensive", "watch"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "281", "query_index": 141, "model": "cnn_bilstm", "tokens": ["most", "expensive", "watch"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "281", "query_index": 141, "model": "bert_ner", "tokens": ["most", "expensive", "watch"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "281", "query_index": 141, "model": "roberta_ner", "tokens": ["most", "expensive", "watch"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "259", "query_index": 142, "model": "bilstm_crf", "tokens": ["end", "of", "evangelion"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "O", "B-PRODUCT_TYPE"]}
+{"query_id": "259", "query_index": 142, "model": "cnn_bilstm", "tokens": ["end", "of", "evangelion"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "259", "query_index": 142, "model": "bert_ner", "tokens": ["end", "of", "evangelion"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "B-PRODUCT_TYPE", "I-PRODUCT_TYPE"]}
+{"query_id": "259", "query_index": 142, "model": "roberta_ner", "tokens": ["end", "of", "evangelion"], "gold_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "I-PRODUCT_TYPE"], "pred_tags": ["B-PRODUCT_TYPE", "I-PRODUCT_TYPE", "I-PRODUCT_TYPE"]}
+{"query_id": "892", "query_index": 143, "model": "bilstm_crf", "tokens": ["12", "volt", "cable", "male", "to", "male"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "892", "query_index": 143, "model": "cnn_bilstm", "tokens": ["12", "volt", "cable", "male", "to", "male"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "892", "query_index": 143, "model": "bert_ner", "tokens": ["12", "volt", "cable", "male", "to", "male"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "892", "query_index": 143, "model": "roberta_ner", "tokens": ["12", "volt", "cable", "male", "to", "male"], "gold_tags": ["O", "O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O", "O"]}
+{"query_id": "65", "query_index": 144, "model": "bilstm_crf", "tokens": ["books", "by", "james", "patterson"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "65", "query_index": 144, "model": "cnn_bilstm", "tokens": ["books", "by", "james", "patterson"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "65", "query_index": 144, "model": "bert_ner", "tokens": ["books", "by", "james", "patterson"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "65", "query_index": 144, "model": "roberta_ner", "tokens": ["books", "by", "james", "patterson"], "gold_tags": ["O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O"]}
+{"query_id": "731", "query_index": 145, "model": "bilstm_crf", "tokens": ["clouut", "goggles"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "731", "query_index": 145, "model": "cnn_bilstm", "tokens": ["clouut", "goggles"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "731", "query_index": 145, "model": "bert_ner", "tokens": ["clouut", "goggles"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "731", "query_index": 145, "model": "roberta_ner", "tokens": ["clouut", "goggles"], "gold_tags": ["O", "B-PRODUCT_TYPE"], "pred_tags": ["O", "B-PRODUCT_TYPE"]}
+{"query_id": "445", "query_index": 146, "model": "bilstm_crf", "tokens": ["garth", "brooks", "shirt"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "B-BRAND", "O"]}
+{"query_id": "445", "query_index": 146, "model": "cnn_bilstm", "tokens": ["garth", "brooks", "shirt"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "B-BRAND", "O"]}
+{"query_id": "445", "query_index": 146, "model": "bert_ner", "tokens": ["garth", "brooks", "shirt"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "445", "query_index": 146, "model": "roberta_ner", "tokens": ["garth", "brooks", "shirt"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "292", "query_index": 147, "model": "bilstm_crf", "tokens": ["jordan", "jersey"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "292", "query_index": 147, "model": "cnn_bilstm", "tokens": ["jordan", "jersey"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "292", "query_index": 147, "model": "bert_ner", "tokens": ["jordan", "jersey"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "292", "query_index": 147, "model": "roberta_ner", "tokens": ["jordan", "jersey"], "gold_tags": ["O", "O"], "pred_tags": ["O", "O"]}
+{"query_id": "947", "query_index": 148, "model": "bilstm_crf", "tokens": ["iphone", "x", "storage", "flash", "drive"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "947", "query_index": 148, "model": "cnn_bilstm", "tokens": ["iphone", "x", "storage", "flash", "drive"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "947", "query_index": 148, "model": "bert_ner", "tokens": ["iphone", "x", "storage", "flash", "drive"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "947", "query_index": 148, "model": "roberta_ner", "tokens": ["iphone", "x", "storage", "flash", "drive"], "gold_tags": ["O", "O", "O", "O", "O"], "pred_tags": ["O", "O", "O", "O", "O"]}
+{"query_id": "67", "query_index": 149, "model": "bilstm_crf", "tokens": ["fan", "for", "desk"], "gold_tags": ["O", "O", "O"], "pred_tags": ["B-PRODUCT_TYPE", "O", "O"]}
+{"query_id": "67", "query_index": 149, "model": "cnn_bilstm", "tokens": ["fan", "for", "desk"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "67", "query_index": 149, "model": "bert_ner", "tokens": ["fan", "for", "desk"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}
+{"query_id": "67", "query_index": 149, "model": "roberta_ner", "tokens": ["fan", "for", "desk"], "gold_tags": ["O", "O", "O"], "pred_tags": ["O", "O", "O"]}

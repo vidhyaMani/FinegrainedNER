@@ -1,0 +1,53 @@
+Loading test data from data/annotations/test.parquet
+Loaded 11250 test samples
+Found 4 prediction files
+
+============================================================
+Evaluating: cnn_bilstm
+============================================================
+Fine-grained F1:   0.4056
+Coarse F1:         0.4574
+F1 Gain:           +0.0518
+Top confusions: [('COLOR->PRODUCT_TYPE', 188), ('PRODUCT_TYPE->BRAND', 155), ('PRODUCT_TYPE->SIZE_MEASURE', 125), ('PRODUCT_TYPE->MATERIAL', 102), ('PRODUCT_TYPE->ATTRIBUTE_VALUE', 49)]
+
+============================================================
+Evaluating: bilstm_crf
+============================================================
+Fine-grained F1:   0.4469
+Coarse F1:         0.5004
+F1 Gain:           +0.0535
+Top confusions: [('PRODUCT_TYPE->BRAND', 183), ('PRODUCT_TYPE->COLOR', 154), ('COLOR->PRODUCT_TYPE', 136), ('PRODUCT_TYPE->SIZE_MEASURE', 126), ('PRODUCT_TYPE->MATERIAL', 108)]
+
+============================================================
+Evaluating: bert_ner
+============================================================
+Fine-grained F1:   0.5098
+Coarse F1:         0.5574
+F1 Gain:           +0.0476
+Top confusions: [('COLOR->PRODUCT_TYPE', 226), ('PRODUCT_TYPE->BRAND', 200), ('PRODUCT_TYPE->SIZE_MEASURE', 148), ('PRODUCT_TYPE->MATERIAL', 101), ('BRAND->PRODUCT_TYPE', 71)]
+
+============================================================
+Evaluating: roberta_ner
+============================================================
+Fine-grained F1:   0.4909
+Coarse F1:         0.5374
+F1 Gain:           +0.0465
+Top confusions: [('COLOR->PRODUCT_TYPE', 219), ('PRODUCT_TYPE->BRAND', 212), ('BRAND->PRODUCT_TYPE', 140), ('PRODUCT_TYPE->MATERIAL', 103), ('PRODUCT_TYPE->SIZE_MEASURE', 97)]
+
+================================================================================
+FLAT VS HIERARCHICAL SCHEMA COMPARISON
+================================================================================
+
+Model                        Fine F1    Coarse F1    F1 Gain  Recall Gain
+--------------------------------------------------------------------------------
+bert_ner                      0.5098       0.5574    +0.0476      +0.0441
+bilstm_crf                    0.4469       0.5004    +0.0535      +0.0423
+cnn_bilstm                    0.4056       0.4574    +0.0518      +0.0373
+roberta_ner                   0.4909       0.5374    +0.0465      +0.0450
+--------------------------------------------------------------------------------
+
+Interpretation:
+- Fine F1: Performance at fine-grained level (BRAND, COLOR, etc.)
+- Coarse F1: Performance when collapsing to PRODUCT only
+- F1 Gain: How much F1 improves with hierarchical fallback
+- Recall Gain: How much recall improves (entities correctly bounded)

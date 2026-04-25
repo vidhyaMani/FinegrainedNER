@@ -1,0 +1,10 @@
+# Per-Entity F1 Scores
+
+| Entity          |   bilstm_crf |   cnn_bilstm |   bert_ner |   roberta_ner |
+|:----------------|-------------:|-------------:|-----------:|--------------:|
+| ATTRIBUTE_VALUE |         0.93 |         0.92 |       0.92 |          0.92 |
+| BRAND           |         0.63 |         0.59 |       0.67 |          0.62 |
+| COLOR           |         0.2  |         0.02 |       0.1  |          0.17 |
+| MATERIAL        |         0.85 |         0.85 |       0.85 |          0.85 |
+| PRODUCT_TYPE    |         0.31 |         0.25 |       0.41 |          0.41 |
+| SIZE_MEASURE    |         0.56 |         0.55 |       0.67 |          0.63 |

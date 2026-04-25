@@ -1,0 +1,18 @@
+
+\begin{table}[htbp]
+\centering
+\caption{Per-Entity F1 Scores on Gold Standard Test Set}
+\label{tab:gold-per-entity}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Entity Type} & \textbf{bilstm-crf} & \textbf{cnn-bilstm} & \textbf{bert-ner} & \textbf{roberta-ner} \\
+\midrule
+ATTRIBUTE_VALUE & 1.00 & 1.00 & 1.00 & 1.00 \\
+BRAND & 0.76 & 0.65 & 0.77 & 0.90 \\
+COLOR & 0.22 & 0.00 & 0.00 & 0.71 \\
+MATERIAL & 1.00 & 0.91 & 0.91 & 1.00 \\
+PRODUCT_TYPE & 0.42 & 0.30 & 0.47 & 0.64 \\
+SIZE_MEASURE & 1.00 & 0.67 & 0.80 & 0.80 \\
+\bottomrule
+\end{tabular}
+\end{table}
