@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{Flat vs Hierarchical Schema Performance Comparison}
+\label{tab:flat-vs-hierarchical}
+\begin{tabular}{lcccc}
+\toprule
+Model & Fine F1 & Coarse F1 & $\Delta$ F1 & $\Delta$ Recall \\
+\midrule
+bert\_ner & 0.510 & 0.557 & +0.048 & +0.044 \\
+bilstm\_crf & 0.447 & 0.500 & +0.054 & +0.042 \\
+cnn\_bilstm & 0.406 & 0.457 & +0.052 & +0.037 \\
+roberta\_ner & 0.491 & 0.537 & +0.047 & +0.045 \\
+\bottomrule
+\end{tabular}
+\end{table}

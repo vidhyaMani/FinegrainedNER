@@ -1,0 +1,6 @@
+Model                           Precision     Recall         F1
+---------------------------------------------------------------
+gold_bert_ner                      0.2314     0.2718     0.2500
+gold_bilstm_crf                    0.0000     0.0000     0.0000
+gold_cnn_bilstm                    0.0000     0.0000     0.0000
+gold_roberta_ner                   0.2034     0.1165     0.1481

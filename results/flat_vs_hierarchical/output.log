@@ -1,0 +1,100 @@
+Loading test data from data/annotations/test.parquet
+Loaded 11250 test samples
+Found 4 prediction files
+
+============================================================
+Evaluating: cnn_bilstm
+============================================================
+[03/21/26 17:04:20] INFO     NER Metrics (mode=strict):                                                                                                                         intrinsic.py:136
+                    INFO       Precision: 0.6630                                                                                                                                intrinsic.py:137
+                    INFO       Recall:    0.2922                                                                                                                                intrinsic.py:138
+                    INFO       F1:        0.4056                                                                                                                                intrinsic.py:139
+[03/21/26 17:04:21] INFO     NER Metrics (mode=strict):                                                                                                                         intrinsic.py:136
+                    INFO       Precision: 0.7476                                                                                                                                intrinsic.py:137
+                    INFO       Recall:    0.3295                                                                                                                                intrinsic.py:138
+                    INFO       F1:        0.4574                                                                                                                                intrinsic.py:139
+Fine-grained F1:   0.4056
+Coarse F1:         0.4574
+F1 Gain:           +0.0518
+Top confusions: [('COLOR->PRODUCT_TYPE', 188), ('PRODUCT_TYPE->BRAND', 155), ('PRODUCT_TYPE->SIZE_MEASURE', 125), ('PRODUCT_TYPE->MATERIAL', 102), ('PRODUCT_TYPE->ATTRIBUTE_VALUE', 49)]
+
+============================================================
+Evaluating: bilstm_crf
+============================================================
+                    INFO     NER Metrics (mode=strict):                                                                                                                         intrinsic.py:136
+                    INFO       Precision: 0.6091                                                                                                                                intrinsic.py:137
+                    INFO       Recall:    0.3530                                                                                                                                intrinsic.py:138
+                    INFO       F1:        0.4469                                                                                                                                intrinsic.py:139
+[03/21/26 17:04:22] INFO     NER Metrics (mode=strict):                                                                                                                         intrinsic.py:136
+                    INFO       Precision: 0.6820                                                                                                                                intrinsic.py:137
+                    INFO       Recall:    0.3952                                                                                                                                intrinsic.py:138
+                    INFO       F1:        0.5004                                                                                                                                intrinsic.py:139
+Fine-grained F1:   0.4469
+Coarse F1:         0.5004
+F1 Gain:           +0.0535
+Top confusions: [('PRODUCT_TYPE->BRAND', 183), ('PRODUCT_TYPE->COLOR', 154), ('COLOR->PRODUCT_TYPE', 136), ('PRODUCT_TYPE->SIZE_MEASURE', 126), ('PRODUCT_TYPE->MATERIAL', 108)]
+
+============================================================
+Evaluating: bert_ner
+============================================================
+                    INFO     NER Metrics (mode=strict):                                                                                                                         intrinsic.py:136
+                    INFO       Precision: 0.5544                                                                                                                                intrinsic.py:137
+                    INFO       Recall:    0.4718                                                                                                                                intrinsic.py:138
+                    INFO       F1:        0.5098                                                                                                                                intrinsic.py:139
+[03/21/26 17:04:23] INFO     NER Metrics (mode=strict):                                                                                                                         intrinsic.py:136
+                    INFO       Precision: 0.6062                                                                                                                                intrinsic.py:137
+                    INFO       Recall:    0.5159                                                                                                                                intrinsic.py:138
+                    INFO       F1:        0.5574                                                                                                                                intrinsic.py:139
+Fine-grained F1:   0.5098
+Coarse F1:         0.5574
+F1 Gain:           +0.0476
+Top confusions: [('COLOR->PRODUCT_TYPE', 226), ('PRODUCT_TYPE->BRAND', 200), ('PRODUCT_TYPE->SIZE_MEASURE', 148), ('PRODUCT_TYPE->MATERIAL', 101), ('BRAND->PRODUCT_TYPE', 71)]
+
+============================================================
+Evaluating: roberta_ner
+============================================================
+[03/21/26 17:04:24] INFO     NER Metrics (mode=strict):                                                                                                                         intrinsic.py:136
+                    INFO       Precision: 0.5080                                                                                                                                intrinsic.py:137
+                    INFO       Recall:    0.4749                                                                                                                                intrinsic.py:138
+                    INFO       F1:        0.4909                                                                                                                                intrinsic.py:139
+                    INFO     NER Metrics (mode=strict):                                                                                                                         intrinsic.py:136
+                    INFO       Precision: 0.5561                                                                                                                                intrinsic.py:137
+                    INFO       Recall:    0.5199                                                                                                                                intrinsic.py:138
+                    INFO       F1:        0.5374                                                                                                                                intrinsic.py:139
+Fine-grained F1:   0.4909
+Coarse F1:         0.5374
+F1 Gain:           +0.0465
+Top confusions: [('COLOR->PRODUCT_TYPE', 219), ('PRODUCT_TYPE->BRAND', 212), ('BRAND->PRODUCT_TYPE', 140), ('PRODUCT_TYPE->MATERIAL', 103), ('PRODUCT_TYPE->SIZE_MEASURE', 97)]
+
+================================================================================
+FLAT VS HIERARCHICAL SCHEMA COMPARISON
+================================================================================
+
+Model                        Fine F1    Coarse F1    F1 Gain  Recall Gain
+--------------------------------------------------------------------------------
+bert_ner                      0.5098       0.5574    +0.0476      +0.0441
+bilstm_crf                    0.4469       0.5004    +0.0535      +0.0423
+cnn_bilstm                    0.4056       0.4574    +0.0518      +0.0373
+roberta_ner                   0.4909       0.5374    +0.0465      +0.0450
+--------------------------------------------------------------------------------
+
+Interpretation:
+- Fine F1: Performance at fine-grained level (BRAND, COLOR, etc.)
+- Coarse F1: Performance when collapsing to PRODUCT only
+- F1 Gain: How much F1 improves with hierarchical fallback
+- Recall Gain: How much recall improves (entities correctly bounded)
+
+
+Results saved to results/flat_vs_hierarchical/
+
+================================================================================
+KEY FINDINGS
+================================================================================
+
+Average F1 gain from hierarchical fallback: +0.0499
+Average recall gain: +0.0422
+
+This demonstrates that the hierarchical schema provides:
+1. Graceful degradation when fine-grained types are confused
+2. Higher recall for entity boundary detection
+3. A foundation for taxonomy extension without retraining

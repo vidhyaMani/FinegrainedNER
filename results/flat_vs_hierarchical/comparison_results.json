@@ -1,0 +1,153 @@
+{
+  "cnn_bilstm": {
+    "fine": {
+      "precision": 0.6630229928382962,
+      "recall": 0.292168424549456,
+      "f1": 0.40560327434138466
+    },
+    "coarse": {
+      "precision": 0.7476441764040709,
+      "recall": 0.3294576862386845,
+      "f1": 0.45737015045829255
+    },
+    "gain": {
+      "precision": 0.08462118356577464,
+      "recall": 0.03728926168922847,
+      "f1": 0.05176687611690789
+    },
+    "fine_type_confusion": {
+      "COLOR->PRODUCT_TYPE": 188,
+      "PRODUCT_TYPE->BRAND": 155,
+      "PRODUCT_TYPE->SIZE_MEASURE": 125,
+      "PRODUCT_TYPE->MATERIAL": 102,
+      "PRODUCT_TYPE->ATTRIBUTE_VALUE": 49,
+      "BRAND->PRODUCT_TYPE": 29,
+      "MATERIAL->PRODUCT_TYPE": 22,
+      "COLOR->BRAND": 16,
+      "MATERIAL->BRAND": 7,
+      "BRAND->MATERIAL": 7,
+      "BRAND->ATTRIBUTE_VALUE": 6,
+      "ATTRIBUTE_VALUE->BRAND": 5,
+      "PRODUCT_TYPE->COLOR": 5,
+      "COLOR->SIZE_MEASURE": 5,
+      "COLOR->ATTRIBUTE_VALUE": 4,
+      "ATTRIBUTE_VALUE->PRODUCT_TYPE": 4,
+      "SIZE_MEASURE->PRODUCT_TYPE": 3,
+      "SIZE_MEASURE->BRAND": 1
+    }
+  },
+  "bilstm_crf": {
+    "fine": {
+      "precision": 0.6090570364001147,
+      "recall": 0.3529607175483764,
+      "f1": 0.44692149955307847
+    },
+    "coarse": {
+      "precision": 0.682000573230152,
+      "recall": 0.39523295407358194,
+      "f1": 0.500446921499553
+    },
+    "gain": {
+      "precision": 0.07294353683003729,
+      "recall": 0.042272236525205564,
+      "f1": 0.05352542194647458
+    },
+    "fine_type_confusion": {
+      "PRODUCT_TYPE->BRAND": 183,
+      "PRODUCT_TYPE->COLOR": 154,
+      "COLOR->PRODUCT_TYPE": 136,
+      "PRODUCT_TYPE->SIZE_MEASURE": 126,
+      "PRODUCT_TYPE->MATERIAL": 108,
+      "PRODUCT_TYPE->ATTRIBUTE_VALUE": 52,
+      "BRAND->PRODUCT_TYPE": 38,
+      "COLOR->BRAND": 16,
+      "COLOR->SIZE_MEASURE": 8,
+      "MATERIAL->PRODUCT_TYPE": 7,
+      "BRAND->MATERIAL": 7,
+      "BRAND->ATTRIBUTE_VALUE": 6,
+      "SIZE_MEASURE->PRODUCT_TYPE": 6,
+      "COLOR->ATTRIBUTE_VALUE": 4,
+      "BRAND->COLOR": 3,
+      "ATTRIBUTE_VALUE->BRAND": 2,
+      "ATTRIBUTE_VALUE->PRODUCT_TYPE": 1,
+      "MATERIAL->BRAND": 1,
+      "SIZE_MEASURE->BRAND": 1
+    }
+  },
+  "bert_ner": {
+    "fine": {
+      "precision": 0.554406167658827,
+      "recall": 0.4718046673864297,
+      "f1": 0.509781048097631
+    },
+    "coarse": {
+      "precision": 0.6062262125500146,
+      "recall": 0.5159039946848268,
+      "f1": 0.5574300071787508
+    },
+    "gain": {
+      "precision": 0.05182004489118763,
+      "recall": 0.04409932729839716,
+      "f1": 0.04764895908111977
+    },
+    "fine_type_confusion": {
+      "COLOR->PRODUCT_TYPE": 226,
+      "PRODUCT_TYPE->BRAND": 200,
+      "PRODUCT_TYPE->SIZE_MEASURE": 148,
+      "PRODUCT_TYPE->MATERIAL": 101,
+      "BRAND->PRODUCT_TYPE": 71,
+      "PRODUCT_TYPE->ATTRIBUTE_VALUE": 48,
+      "MATERIAL->PRODUCT_TYPE": 32,
+      "PRODUCT_TYPE->COLOR": 21,
+      "COLOR->BRAND": 20,
+      "SIZE_MEASURE->PRODUCT_TYPE": 15,
+      "COLOR->SIZE_MEASURE": 11,
+      "BRAND->MATERIAL": 9,
+      "BRAND->ATTRIBUTE_VALUE": 5,
+      "ATTRIBUTE_VALUE->PRODUCT_TYPE": 5,
+      "COLOR->ATTRIBUTE_VALUE": 4,
+      "BRAND->COLOR": 3,
+      "MATERIAL->ATTRIBUTE_VALUE": 1,
+      "SIZE_MEASURE->BRAND": 1
+    }
+  },
+  "roberta_ner": {
+    "fine": {
+      "precision": 0.5079506085102603,
+      "recall": 0.47487750186861555,
+      "f1": 0.4908575843420036
+    },
+    "coarse": {
+      "precision": 0.5560984276450208,
+      "recall": 0.5198903745536085,
+      "f1": 0.5373851832775345
+    },
+    "gain": {
+      "precision": 0.04814781913476052,
+      "recall": 0.04501287268499299,
+      "f1": 0.04652759893553088
+    },
+    "fine_type_confusion": {
+      "COLOR->PRODUCT_TYPE": 219,
+      "PRODUCT_TYPE->BRAND": 212,
+      "BRAND->PRODUCT_TYPE": 140,
+      "PRODUCT_TYPE->MATERIAL": 103,
+      "PRODUCT_TYPE->SIZE_MEASURE": 97,
+      "PRODUCT_TYPE->COLOR": 96,
+      "PRODUCT_TYPE->ATTRIBUTE_VALUE": 48,
+      "SIZE_MEASURE->PRODUCT_TYPE": 44,
+      "COLOR->BRAND": 16,
+      "MATERIAL->PRODUCT_TYPE": 13,
+      "BRAND->MATERIAL": 12,
+      "BRAND->COLOR": 12,
+      "COLOR->SIZE_MEASURE": 11,
+      "ATTRIBUTE_VALUE->PRODUCT_TYPE": 6,
+      "BRAND->ATTRIBUTE_VALUE": 6,
+      "COLOR->ATTRIBUTE_VALUE": 4,
+      "ATTRIBUTE_VALUE->BRAND": 3,
+      "COLOR->MATERIAL": 3,
+      "SIZE_MEASURE->COLOR": 1,
+      "MATERIAL->BRAND": 1
+    }
+  }
+}

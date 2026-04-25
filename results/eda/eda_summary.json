@@ -1,0 +1,24 @@
+{
+  "total_samples": 75000,
+  "train_samples": 52500,
+  "val_samples": 11250,
+  "test_samples": 11250,
+  "avg_tokens_per_query": 3.669626666666667,
+  "avg_entities_per_query": 1.0740666666666667,
+  "entity_types": [
+    "COLOR",
+    "PRODUCT_TYPE",
+    "ATTRIBUTE_VALUE",
+    "BRAND",
+    "MATERIAL",
+    "SIZE_MEASURE"
+  ],
+  "entity_span_counts": {
+    "COLOR": 3713,
+    "PRODUCT_TYPE": 54385,
+    "ATTRIBUTE_VALUE": 3431,
+    "BRAND": 14184,
+    "MATERIAL": 2841,
+    "SIZE_MEASURE": 2001
+  }
+}

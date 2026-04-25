@@ -1,0 +1,17 @@
+================================================================================
+FLAT VS HIERARCHICAL SCHEMA COMPARISON
+================================================================================
+
+Model                        Fine F1    Coarse F1    F1 Gain  Recall Gain
+--------------------------------------------------------------------------------
+bert_ner                      0.5098       0.5574    +0.0476      +0.0441
+bilstm_crf                    0.4469       0.5004    +0.0535      +0.0423
+cnn_bilstm                    0.4056       0.4574    +0.0518      +0.0373
+roberta_ner                   0.4909       0.5374    +0.0465      +0.0450
+--------------------------------------------------------------------------------
+
+Interpretation:
+- Fine F1: Performance at fine-grained level (BRAND, COLOR, etc.)
+- Coarse F1: Performance when collapsing to PRODUCT only
+- F1 Gain: How much F1 improves with hierarchical fallback
+- Recall Gain: How much recall improves (entities correctly bounded)

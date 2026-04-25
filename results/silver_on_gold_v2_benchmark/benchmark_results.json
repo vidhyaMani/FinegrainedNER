@@ -1,0 +1,1514 @@
+{
+  "bilstm_crf": {
+    "precision": 0.7,
+    "recall": 0.5,
+    "f1": 0.5833333333333334,
+    "per_entity_type": {
+      "ATTRIBUTE_VALUE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": "1"
+      },
+      "BRAND": {
+        "precision": 0.875,
+        "recall": 0.875,
+        "f1-score": 0.875,
+        "support": "8"
+      },
+      "COLOR": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "2"
+      },
+      "PRODUCT_TYPE": {
+        "precision": 0.5454545454545454,
+        "recall": 0.35294117647058826,
+        "f1-score": 0.42857142857142855,
+        "support": "17"
+      },
+      "micro avg": {
+        "precision": 0.7,
+        "recall": 0.5,
+        "f1-score": 0.5833333333333334,
+        "support": "28"
+      },
+      "macro avg": {
+        "precision": 0.6051136363636364,
+        "recall": 0.5569852941176471,
+        "f1-score": 0.5758928571428571,
+        "support": "28"
+      },
+      "weighted avg": {
+        "precision": 0.6168831168831169,
+        "recall": 0.5,
+        "f1-score": 0.5459183673469388,
+        "support": "28"
+      }
+    },
+    "predictions": [
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "B-BRAND",
+        "O"
+      ],
+      [
+        "B-ATTRIBUTE_VALUE",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "B-PRODUCT_TYPE",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "B-BRAND",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ]
+    ],
+    "extrinsic": {
+      "query_understanding": {
+        "exact_match_accuracy": 0.7058823529411765,
+        "partial_match_accuracy": 0.21568627450980393,
+        "total_queries": 51,
+        "exact_matches": 36
+      },
+      "attribute_coverage": {
+        "overall_coverage": 50.0,
+        "total_expected": 28,
+        "total_recognized": 14,
+        "per_type_coverage": {
+          "PRODUCT_TYPE": {
+            "coverage": 35.294117647058826,
+            "expected": 17,
+            "recognized": 6
+          },
+          "COLOR": {
+            "coverage": 0.0,
+            "expected": 2,
+            "recognized": 0
+          },
+          "BRAND": {
+            "coverage": 87.5,
+            "expected": 8,
+            "recognized": 7
+          },
+          "ATTRIBUTE_VALUE": {
+            "coverage": 100.0,
+            "expected": 1,
+            "recognized": 1
+          }
+        }
+      },
+      "slot_metrics": {
+        "slot_precision": 0.7,
+        "slot_recall": 0.5,
+        "slot_f1": 0.5833333333333334,
+        "total_pred_slots": 20,
+        "total_gold_slots": 28,
+        "total_correct_slots": 14
+      }
+    }
+  },
+  "cnn_bilstm": {
+    "precision": 0.6666666666666666,
+    "recall": 0.2857142857142857,
+    "f1": 0.4,
+    "per_entity_type": {
+      "ATTRIBUTE_VALUE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": "1"
+      },
+      "BRAND": {
+        "precision": 0.7142857142857143,
+        "recall": 0.625,
+        "f1-score": 0.6666666666666666,
+        "support": "8"
+      },
+      "COLOR": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "2"
+      },
+      "PRODUCT_TYPE": {
+        "precision": 0.5,
+        "recall": 0.11764705882352941,
+        "f1-score": 0.19047619047619047,
+        "support": "17"
+      },
+      "micro avg": {
+        "precision": 0.6666666666666666,
+        "recall": 0.2857142857142857,
+        "f1-score": 0.4,
+        "support": "28"
+      },
+      "macro avg": {
+        "precision": 0.5535714285714286,
+        "recall": 0.43566176470588236,
+        "f1-score": 0.46428571428571425,
+        "support": "28"
+      },
+      "weighted avg": {
+        "precision": 0.5433673469387755,
+        "recall": 0.2857142857142857,
+        "f1-score": 0.34183673469387754,
+        "support": "28"
+      }
+    },
+    "predictions": [
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "B-BRAND",
+        "O"
+      ],
+      [
+        "B-ATTRIBUTE_VALUE",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ]
+    ],
+    "extrinsic": {
+      "query_understanding": {
+        "exact_match_accuracy": 0.6862745098039216,
+        "partial_match_accuracy": 0.13725490196078433,
+        "total_queries": 51,
+        "exact_matches": 35
+      },
+      "attribute_coverage": {
+        "overall_coverage": 28.57142857142857,
+        "total_expected": 28,
+        "total_recognized": 8,
+        "per_type_coverage": {
+          "PRODUCT_TYPE": {
+            "coverage": 11.76470588235294,
+            "expected": 17,
+            "recognized": 2
+          },
+          "COLOR": {
+            "coverage": 0.0,
+            "expected": 2,
+            "recognized": 0
+          },
+          "BRAND": {
+            "coverage": 62.5,
+            "expected": 8,
+            "recognized": 5
+          },
+          "ATTRIBUTE_VALUE": {
+            "coverage": 100.0,
+            "expected": 1,
+            "recognized": 1
+          }
+        }
+      },
+      "slot_metrics": {
+        "slot_precision": 0.6666666666666666,
+        "slot_recall": 0.2857142857142857,
+        "slot_f1": 0.4,
+        "total_pred_slots": 12,
+        "total_gold_slots": 28,
+        "total_correct_slots": 8
+      }
+    }
+  },
+  "bert_ner": {
+    "precision": 0.4642857142857143,
+    "recall": 0.4642857142857143,
+    "f1": 0.4642857142857143,
+    "per_entity_type": {
+      "ATTRIBUTE_VALUE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": "1"
+      },
+      "BRAND": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": "8"
+      },
+      "COLOR": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": "2"
+      },
+      "PRODUCT_TYPE": {
+        "precision": 0.3157894736842105,
+        "recall": 0.35294117647058826,
+        "f1-score": 0.33333333333333337,
+        "support": "17"
+      },
+      "micro avg": {
+        "precision": 0.4642857142857143,
+        "recall": 0.4642857142857143,
+        "f1-score": 0.4642857142857143,
+        "support": "28"
+      },
+      "macro avg": {
+        "precision": 0.5164473684210527,
+        "recall": 0.5257352941176471,
+        "f1-score": 0.5208333333333334,
+        "support": "28"
+      },
+      "weighted avg": {
+        "precision": 0.4417293233082707,
+        "recall": 0.4642857142857143,
+        "f1-score": 0.45238095238095244,
+        "support": "28"
+      }
+    },
+    "predictions": [
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "I-BRAND",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "I-BRAND"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O",
+        "B-PRODUCT_TYPE",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "B-PRODUCT_TYPE",
+        "O",
+        "O",
+        "I-PRODUCT_TYPE",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-ATTRIBUTE_VALUE",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "B-PRODUCT_TYPE",
+        "O",
+        "O",
+        "I-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "B-PRODUCT_TYPE",
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O"
+      ]
+    ],
+    "extrinsic": {
+      "query_understanding": {
+        "exact_match_accuracy": 0.5294117647058824,
+        "partial_match_accuracy": 0.1568627450980392,
+        "total_queries": 51,
+        "exact_matches": 27
+      },
+      "attribute_coverage": {
+        "overall_coverage": 46.42857142857143,
+        "total_expected": 28,
+        "total_recognized": 13,
+        "per_type_coverage": {
+          "PRODUCT_TYPE": {
+            "coverage": 35.294117647058826,
+            "expected": 17,
+            "recognized": 6
+          },
+          "COLOR": {
+            "coverage": 0.0,
+            "expected": 2,
+            "recognized": 0
+          },
+          "BRAND": {
+            "coverage": 75.0,
+            "expected": 8,
+            "recognized": 6
+          },
+          "ATTRIBUTE_VALUE": {
+            "coverage": 100.0,
+            "expected": 1,
+            "recognized": 1
+          }
+        }
+      },
+      "slot_metrics": {
+        "slot_precision": 0.4642857142857143,
+        "slot_recall": 0.4642857142857143,
+        "slot_f1": 0.4642857142857143,
+        "total_pred_slots": 28,
+        "total_gold_slots": 28,
+        "total_correct_slots": 13
+      }
+    }
+  },
+  "roberta_ner": {
+    "precision": 0.7096774193548387,
+    "recall": 0.7857142857142857,
+    "f1": 0.7457627118644068,
+    "per_entity_type": {
+      "ATTRIBUTE_VALUE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": "1"
+      },
+      "BRAND": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": "8"
+      },
+      "COLOR": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1-score": 0.4,
+        "support": "2"
+      },
+      "PRODUCT_TYPE": {
+        "precision": 0.631578947368421,
+        "recall": 0.7058823529411765,
+        "f1-score": 0.6666666666666667,
+        "support": "17"
+      },
+      "micro avg": {
+        "precision": 0.7096774193548387,
+        "recall": 0.7857142857142857,
+        "f1-score": 0.7457627118644068,
+        "support": "28"
+      },
+      "macro avg": {
+        "precision": 0.7412280701754386,
+        "recall": 0.8014705882352942,
+        "f1-score": 0.7666666666666666,
+        "support": "28"
+      },
+      "weighted avg": {
+        "precision": 0.7286967418546365,
+        "recall": 0.7857142857142857,
+        "f1-score": 0.7547619047619047,
+        "support": "28"
+      }
+    },
+    "predictions": [
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "I-PRODUCT_TYPE",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "B-COLOR",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "I-BRAND",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "B-PRODUCT_TYPE",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "B-PRODUCT_TYPE",
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O"
+      ],
+      [
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "B-COLOR",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "B-PRODUCT_TYPE",
+        "I-PRODUCT_TYPE",
+        "O",
+        "I-PRODUCT_TYPE",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O",
+        "O"
+      ],
+      [
+        "B-BRAND",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-ATTRIBUTE_VALUE",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "B-PRODUCT_TYPE",
+        "O",
+        "B-PRODUCT_TYPE",
+        "I-PRODUCT_TYPE"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "I-PRODUCT_TYPE",
+        "I-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "B-PRODUCT_TYPE",
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "B-PRODUCT_TYPE",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "B-BRAND",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "O",
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "B-PRODUCT_TYPE"
+      ],
+      [
+        "O",
+        "O",
+        "O"
+      ],
+      [
+        "O",
+        "O",
+        "B-COLOR"
+      ]
+    ],
+    "extrinsic": {
+      "query_understanding": {
+        "exact_match_accuracy": 0.7450980392156863,
+        "partial_match_accuracy": 0.3137254901960784,
+        "total_queries": 51,
+        "exact_matches": 38
+      },
+      "attribute_coverage": {
+        "overall_coverage": 78.57142857142857,
+        "total_expected": 28,
+        "total_recognized": 22,
+        "per_type_coverage": {
+          "PRODUCT_TYPE": {
+            "coverage": 70.58823529411765,
+            "expected": 17,
+            "recognized": 12
+          },
+          "COLOR": {
+            "coverage": 50.0,
+            "expected": 2,
+            "recognized": 1
+          },
+          "BRAND": {
+            "coverage": 100.0,
+            "expected": 8,
+            "recognized": 8
+          },
+          "ATTRIBUTE_VALUE": {
+            "coverage": 100.0,
+            "expected": 1,
+            "recognized": 1
+          }
+        }
+      },
+      "slot_metrics": {
+        "slot_precision": 0.7096774193548387,
+        "slot_recall": 0.7857142857142857,
+        "slot_f1": 0.7457627118644068,
+        "total_pred_slots": 31,
+        "total_gold_slots": 28,
+        "total_correct_slots": 22
+      }
+    }
+  }
+}
