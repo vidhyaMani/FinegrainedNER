@@ -1,0 +1,42 @@
+# ── Data Pipeline Configuration ──
+
+data:
+  # ESCI dataset source
+  esci_repo: "https://github.com/amazon-science/esci-data.git"
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  annotations_dir: "data/annotations"
+
+  # Filtering
+  locale: "us"  # English queries only
+  min_query_length: 2  # minimum number of tokens
+  max_query_length: 20  # maximum number of tokens
+
+  # Sampling
+  sample_size: 75000  # number of unique queries to sample
+  stratify_by: "esci_label"  # stratify across ESCI relevance labels (E/S/C/I)
+  random_seed: 42
+
+  # Splitting
+  splits:
+    train: 0.70
+    val: 0.15
+    test: 0.15
+
+  # Low-resource subsets for few-shot experiments
+  low_resource_sizes: [1000, 2000, 5000]
+
+  # Preprocessing
+  preprocessing:
+    lowercase: true
+    strip_special_chars: true
+    expand_abbreviations: true
+    remove_duplicates: true
+
+  # Silver annotation
+  annotation:
+    fuzzy_match_threshold: 85  # rapidfuzz score threshold (0-100)
+    min_entity_length: 1       # minimum tokens per entity
+    max_entity_length: 5       # maximum tokens per entity
+    qa_sample_size: 1000       # queries for manual QA review
+

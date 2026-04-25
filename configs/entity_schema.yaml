@@ -1,0 +1,66 @@
+# Entity schema: coarse -> fine-grained entity types
+
+schema:
+  name: "ecommerce_ner_v1"
+  tagging_scheme: "IOB2"  # B-/I-/O tags
+
+  coarse_entities:
+    - PRODUCT
+
+  fine_entities:
+    PRODUCT_TYPE:
+      description: "The type/category of product (e.g., shoes, laptop, shampoo)"
+      parent: PRODUCT
+      priority: 1
+      examples: ["running shoes", "laptop", "shampoo", "wireless earbuds"]
+
+    BRAND:
+      description: "Brand or manufacturer name"
+      parent: PRODUCT
+      priority: 2
+      examples: ["nike", "apple", "samsung", "loreal"]
+
+    MATERIAL:
+      description: "Material composition (e.g., leather, cotton, stainless steel)"
+      parent: PRODUCT
+      priority: 3
+      examples: ["leather", "cotton", "stainless steel", "silicone"]
+
+    COLOR:
+      description: "Color of the product"
+      parent: PRODUCT
+      priority: 4
+      examples: ["red", "navy blue", "matte black", "rose gold"]
+
+    SIZE_MEASURE:
+      description: "Size, dimension, or measurement (e.g., XL, 32oz, 15-inch)"
+      parent: PRODUCT
+      priority: 5
+      examples: ["XL", "32oz", "15-inch", "king size", "6ft"]
+
+    ATTRIBUTE_VALUE:
+      description: "Other product attributes not covered above (e.g., waterproof, organic, wireless)"
+      parent: PRODUCT
+      priority: 6
+      examples: ["waterproof", "organic", "wireless", "rechargeable", "vegan"]
+
+  # IOB2 label list (derived automatically but listed explicitly for reference)
+  labels:
+    - "O"
+    - "B-PRODUCT_TYPE"
+    - "I-PRODUCT_TYPE"
+    - "B-BRAND"
+    - "I-BRAND"
+    - "B-MATERIAL"
+    - "I-MATERIAL"
+    - "B-COLOR"
+    - "I-COLOR"
+    - "B-SIZE_MEASURE"
+    - "I-SIZE_MEASURE"
+    - "B-ATTRIBUTE_VALUE"
+    - "I-ATTRIBUTE_VALUE"
+
+  # Priority rules for overlapping annotation matches
+  # Lower number = higher priority (wins when tokens match multiple entity types)
+  overlap_resolution: "priority"
+
