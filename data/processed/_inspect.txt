@@ -1,0 +1,18 @@
+shape: (92541, 10)
+columns: ['query', 'product_title', 'product_brand', 'product_color', 'product_bullet_point', 'product_description', 'esci_label', 'query_clean', 'query_tokens', 'num_tokens']
+dtypes:
+query                      str
+product_title           object
+product_brand           object
+product_color           object
+product_bullet_point    object
+product_description     object
+esci_label              object
+query_clean                str
+query_tokens            object
+num_tokens               int64
+dtype: object
+head:
+                          query                                                product_title                                                product_brand                                                product_color                                         product_bullet_point                                          product_description                                        esci_label                  query_clean                      query_tokens  num_tokens
+0                 revent 80 cfm  [Panasonic FV-20VQ3 WhisperCeiling 190 CFM Ceiling Mount...  [Panasonic, Homewerks, DELTA ELECTRONICS (AMERICAS) LTD....  [White, 80 CFM, With Heater, White Finish, With LED Ligh...  [WhisperCeiling fans feature a totally enclosed condense...  [This pre-owned or refurbished product has been professi...  [I, E, E, E, E, E, E, E, E, E, I, E, E, E, E, E]                revent 80 cfm                 [revent, 80, cfm]           3
+1  !awnmower tires without rims  [RamPro 10" All Purpose Utility Air Tires/Wheels with a ...  [RamPro, MaxAuto, Neiko, Russo, Antego Tire & Wheel, Dr....  [10 Inch, Husqvarna Silver, Black, Silver & Black, ⭐️ Ex...  [✓ The Ram-Pro Ten Inch ready to install Air Tire Wheels...  [<b>About The Ram-Pro All Purpose Utility 10" Air Tires ...  [I, E, I, S, E, E, C, E, S, I, E, S, E, E, I, I]  awnmower tires without rims  [awnmower, tires, without, rims]           4
