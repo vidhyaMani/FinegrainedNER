@@ -1,0 +1,16 @@
+
+\begin{table}[htbp]
+\centering
+\caption{NER Model Performance on Gold Standard Test Set (n=51)}
+\label{tab:gold-evaluation}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Model} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} \\
+\midrule
+RoBERTa-NER & 0.7097 & 0.7857 & \textbf{0.7458} \\
+BiLSTM-CRF & 0.7000 & 0.5000 & 0.5833 \\
+BERT-NER & 0.4643 & 0.4643 & 0.4643 \\
+CNN-BiLSTM & 0.6667 & 0.2857 & 0.4000 \\
+\bottomrule
+\end{tabular}
+\end{table}

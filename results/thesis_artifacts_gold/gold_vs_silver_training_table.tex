@@ -1,0 +1,18 @@
+
+\begin{table}[htbp]
+\centering
+\caption{Comparison: Gold-Trained vs Silver-Trained Models (Evaluated on Gold Test Set, n=51)}
+\label{tab:gold-vs-silver-training}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \multicolumn{2}{c}{\textbf{Gold-Trained (849)}} & \multicolumn{2}{c}{\textbf{Silver-Trained (52.5K)}} \\
+\cmidrule(lr){2-3} \cmidrule(lr){4-5}
+& Precision & F1 & Precision & F1 \\
+\midrule
+BERT-NER & 0.2963 & 0.2909 & 0.4643 & 0.4643 \\
+RoBERTa-NER & 0.0000 & 0.0000 & 0.7097 & \textbf{0.7458} \\
+BiLSTM-CRF & 0.0000 & 0.0000 & 0.7000 & 0.5833 \\
+CNN-BiLSTM & 0.0000 & 0.0000 & 0.6667 & 0.4000 \\
+\bottomrule
+\end{tabular}
+\end{table}
