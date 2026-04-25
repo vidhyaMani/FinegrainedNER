@@ -1,0 +1,60 @@
+[03/15/26 21:18:04] INFO     Test set: 11,250 samples                                                                                                                  benchmark.py:151
+                    INFO     === Running spaCy Baseline ===                                                                                                            benchmark.py:156
+[03/15/26 21:18:05] INFO     Downloading spaCy model 'en_core_web_sm'...                                                                                                 baseline.py:35
+[03/15/26 21:18:05] WARNING  spaCy baseline failed: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url:                    benchmark.py:164
+                             /explosion/spacy-models/master/compatibility.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED]                       
+                             certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))). Skipping.                                                            
+                    INFO     === Evaluating bilstm_crf ===                                                                                                             benchmark.py:174
+[03/15/26 21:18:05] INFO     Loaded BiLSTM-CRF model from outputs/bilstm_crf                                                                                          bilstm_crf.py:501
+[03/15/26 21:18:15] INFO     NER Metrics (mode=strict):                                                                                                                 intrinsic.py:82
+                    INFO       Precision: 0.6091                                                                                                                        intrinsic.py:83
+                    INFO       Recall:    0.3530                                                                                                                        intrinsic.py:84
+                    INFO       F1:        0.4469                                                                                                                        intrinsic.py:85
+[03/15/26 21:18:15] INFO     bilstm_crf — F1: 0.4469                                                                                                                   benchmark.py:191
+                    INFO     === Evaluating cnn_bilstm ===                                                                                                             benchmark.py:174
+[03/15/26 21:18:15] INFO     Loaded BiLSTM-CRF model from outputs/cnn_bilstm                                                                                          bilstm_crf.py:501
+[03/15/26 21:18:25] INFO     NER Metrics (mode=strict):                                                                                                                 intrinsic.py:82
+                    INFO       Precision: 0.6630                                                                                                                        intrinsic.py:83
+                    INFO       Recall:    0.2922                                                                                                                        intrinsic.py:84
+                    INFO       F1:        0.4056                                                                                                                        intrinsic.py:85
+[03/15/26 21:18:25] INFO     cnn_bilstm — F1: 0.4056                                                                                                                   benchmark.py:191
+                    INFO     === Evaluating bert_ner ===                                                                                                               benchmark.py:174
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 9138.92it/s]
+[03/15/26 21:18:27] INFO     Loaded BERT NER model from outputs/bert_ner                                                                                                bert_ner.py:324
+[03/15/26 21:24:06] INFO     NER Metrics (mode=strict):                                                                                                                 intrinsic.py:82
+                    INFO       Precision: 0.5544                                                                                                                        intrinsic.py:83
+                    INFO       Recall:    0.4718                                                                                                                        intrinsic.py:84
+                    INFO       F1:        0.5098                                                                                                                        intrinsic.py:85
+[03/15/26 21:24:06] INFO     bert_ner — F1: 0.5098                                                                                                                     benchmark.py:191
+                    INFO     === Evaluating roberta_ner ===                                                                                                            benchmark.py:174
+[03/15/26 21:24:08] INFO     Initialized RoBERTa NER model with 'roberta-base'                                                                                        roberta_ner.py:60
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 9013.09it/s]
+[03/15/26 21:24:09] INFO     Loaded BERT NER model from outputs/roberta_ner                                                                                             bert_ner.py:324
+[03/15/26 21:30:19] INFO     NER Metrics (mode=strict):                                                                                                                 intrinsic.py:82
+                    INFO       Precision: 0.5080                                                                                                                        intrinsic.py:83
+                    INFO       Recall:    0.4749                                                                                                                        intrinsic.py:84
+                    INFO       F1:        0.4909                                                                                                                        intrinsic.py:85
+[03/15/26 21:30:19] INFO     roberta_ner — F1: 0.4909                                                                                                                  benchmark.py:191
+                    INFO                                                                                                                                               intrinsic.py:144
+                             Model Comparison:                                                                                                                                         
+                             Model                           Precision     Recall         F1                                                                                           
+                             ---------------------------------------------------------------                                                                                           
+                             bert_ner                           0.5544     0.4718     0.5098                                                                                           
+                             bilstm_crf                         0.6091     0.3530     0.4469                                                                                           
+                             cnn_bilstm                         0.6630     0.2922     0.4056                                                                                           
+                             roberta_ner                        0.5080     0.4749     0.4909                                                                                           
+                    INFO     === Extrinsic Evaluation ===                                                                                                              benchmark.py:222
+[03/15/26 21:30:19] INFO     Query Understanding: exact_match=0.3740, partial_match=0.2846                                                                             extrinsic.py:116
+                    INFO     Attribute Coverage: 35.3% (4250/12041)                                                                                                    extrinsic.py:181
+                    INFO     Query Understanding: exact_match=0.3711, partial_match=0.2404                                                                             extrinsic.py:116
+                    INFO     Attribute Coverage: 29.2% (3518/12041)                                                                                                    extrinsic.py:181
+                    INFO     Query Understanding: exact_match=0.3788, partial_match=0.3421                                                                             extrinsic.py:116
+                    INFO     Attribute Coverage: 47.2% (5683/12041)                                                                                                    extrinsic.py:181
+                    INFO     Query Understanding: exact_match=0.3552, partial_match=0.3259                                                                             extrinsic.py:116
+                    INFO     Attribute Coverage: 47.6% (5726/12041)                                                                                                    extrinsic.py:181
+                    INFO     Saved comparison chart to results/benchmark/model_comparison_f1.png                                                                        benchmark.py:80
+                    INFO     Saved comparison chart to results/benchmark/model_comparison_precision.png                                                                 benchmark.py:80
+                    INFO     Saved comparison chart to results/benchmark/model_comparison_recall.png                                                                    benchmark.py:80
+                    INFO     Saved radar chart to results/benchmark/per_entity_radar.png                                                                               benchmark.py:122
+                    INFO     Best model: bert_ner (F1=0.5098)                                                                                                          benchmark.py:255
+                    INFO     Benchmark complete. Results saved to results/benchmark                                                                                    benchmark.py:257

@@ -1,0 +1,102 @@
+[03/30/26 10:42:02] INFO     Training roberta NER model                                                                                    train_transformer.py:95
+                    INFO     Schema: 13 labels → ['O', 'B-PRODUCT_TYPE', 'I-PRODUCT_TYPE', 'B-BRAND', 'I-BRAND', 'B-MATERIAL',             train_transformer.py:96
+                             'I-MATERIAL', 'B-COLOR', 'I-COLOR', 'B-SIZE_MEASURE', 'I-SIZE_MEASURE', 'B-ATTRIBUTE_VALUE',                                         
+                             'I-ATTRIBUTE_VALUE']                                                                                                                 
+                    INFO     Train file: gold_train.parquet                                                                               train_transformer.py:103
+                    INFO     Val file: gold_val.parquet                                                                                   train_transformer.py:104
+                    INFO     Train: 849 samples, Val: 100 samples                                                                         train_transformer.py:105
+[03/30/26 10:42:04] INFO     Initialized RoBERTa NER model with 'roberta-base'                                                                   roberta_ner.py:60
+Map:   0%|          | 0/849 [00:00<?, ? examples/s]Map: 100%|██████████| 849/849 [00:00<00:00, 49140.47 examples/s]
+Map:   0%|          | 0/100 [00:00<?, ? examples/s]Map: 100%|██████████| 100/100 [00:00<00:00, 44365.39 examples/s]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 8202.49it/s]
+[1mRobertaForTokenClassification LOAD REPORT[0m from: roberta-base
+Key                             | Status     | 
+--------------------------------+------------+-
+lm_head.layer_norm.bias         | UNEXPECTED | 
+roberta.embeddings.position_ids | UNEXPECTED | 
+lm_head.bias                    | UNEXPECTED | 
+lm_head.layer_norm.weight       | UNEXPECTED | 
+lm_head.dense.weight            | UNEXPECTED | 
+lm_head.dense.bias              | UNEXPECTED | 
+classifier.weight               | MISSING    | 
+classifier.bias                 | MISSING    | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING[3m	:those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.[0m
+  0%|          | 0/270 [00:00<?, ?it/s]/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py:775: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+  0%|          | 1/270 [00:00<01:47,  2.51it/s]  1%|          | 2/270 [00:00<01:37,  2.73it/s]  1%|          | 3/270 [00:00<01:15,  3.52it/s]  1%|▏         | 4/270 [00:01<01:04,  4.11it/s]  2%|▏         | 6/270 [00:01<00:38,  6.77it/s]  3%|▎         | 7/270 [00:01<00:40,  6.46it/s]  3%|▎         | 9/270 [00:01<00:36,  7.06it/s]  4%|▍         | 11/270 [00:01<00:28,  8.98it/s]  5%|▍         | 13/270 [00:01<00:24, 10.66it/s]  6%|▌         | 15/270 [00:02<00:21, 12.08it/s]  6%|▋         | 17/270 [00:02<00:24, 10.50it/s]  7%|▋         | 19/270 [00:02<00:21, 11.62it/s]  8%|▊         | 21/270 [00:02<00:24, 10.12it/s]  9%|▊         | 23/270 [00:03<00:31,  7.77it/s]  9%|▉         | 25/270 [00:03<00:26,  9.18it/s] 10%|█         | 27/270 [00:03<00:27,  8.85it/s]
+  0%|          | 0/2 [00:00<?, ?it/s][A/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+                                                
+                                     [A 10%|█         | 27/270 [00:03<00:27,  8.85it/s]
+100%|██████████| 2/2 [00:00<00:00, 32.37it/s][A
+                                             [A{'eval_loss': '0.9888', 'eval_precision': '0', 'eval_recall': '0', 'eval_f1': '0', 'eval_runtime': '0.1454', 'eval_samples_per_second': '687.9', 'eval_steps_per_second': '13.76', 'epoch': '1'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  4.23it/s][AWriting model shards: 100%|██████████| 1/1 [00:00<00:00,  4.23it/s]
+/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py:775: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+ 11%|█         | 29/270 [00:05<01:42,  2.36it/s] 11%|█▏        | 31/270 [00:05<01:15,  3.18it/s] 12%|█▏        | 33/270 [00:05<00:56,  4.19it/s] 13%|█▎        | 35/270 [00:06<00:43,  5.35it/s] 14%|█▎        | 37/270 [00:06<00:34,  6.68it/s] 14%|█▍        | 39/270 [00:06<00:28,  8.07it/s] 15%|█▌        | 41/270 [00:06<00:24,  9.43it/s] 16%|█▌        | 43/270 [00:06<00:21, 10.78it/s] 17%|█▋        | 45/270 [00:06<00:18, 11.90it/s] 17%|█▋        | 47/270 [00:06<00:17, 12.86it/s] 18%|█▊        | 49/270 [00:06<00:16, 13.52it/s]                                                 19%|█▊        | 50/270 [00:07<00:16, 13.52it/s] 19%|█▉        | 51/270 [00:07<00:15, 14.01it/s] 20%|█▉        | 53/270 [00:07<00:15, 13.94it/s]{'loss': '1.247', 'grad_norm': '3.847', 'learning_rate': '4.529e-05', 'epoch': '1.852'}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+                                                
+                                     [A 20%|██        | 54/270 [00:07<00:15, 13.94it/s]
+100%|██████████| 2/2 [00:00<00:00, 135.42it/s][A
+                                              [A{'eval_loss': '0.9796', 'eval_precision': '0', 'eval_recall': '0', 'eval_f1': '0', 'eval_runtime': '0.0593', 'eval_samples_per_second': '1685', 'eval_steps_per_second': '33.7', 'epoch': '2'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  6.14it/s][AWriting model shards: 100%|██████████| 1/1 [00:00<00:00,  6.13it/s]
+/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py:775: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+ 20%|██        | 55/270 [00:09<01:19,  2.70it/s] 21%|██        | 57/270 [00:09<00:59,  3.60it/s] 22%|██▏       | 59/270 [00:09<00:45,  4.69it/s] 23%|██▎       | 61/270 [00:09<00:35,  5.95it/s] 23%|██▎       | 63/270 [00:09<00:28,  7.37it/s] 24%|██▍       | 65/270 [00:10<00:23,  8.82it/s] 25%|██▍       | 67/270 [00:10<00:19, 10.23it/s] 26%|██▌       | 69/270 [00:10<00:17, 11.35it/s] 26%|██▋       | 71/270 [00:10<00:16, 12.37it/s] 27%|██▋       | 73/270 [00:10<00:15, 12.58it/s] 28%|██▊       | 75/270 [00:10<00:14, 13.37it/s] 29%|██▊       | 77/270 [00:10<00:13, 14.01it/s] 29%|██▉       | 79/270 [00:10<00:13, 14.29it/s] 30%|███       | 81/270 [00:11<00:15, 12.07it/s]
+  0%|          | 0/2 [00:00<?, ?it/s][A/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+                                                
+                                     [A 30%|███       | 81/270 [00:11<00:15, 12.07it/s]
+100%|██████████| 2/2 [00:00<00:00, 142.68it/s][A
+                                              [A{'eval_loss': '0.9773', 'eval_precision': '0', 'eval_recall': '0', 'eval_f1': '0', 'eval_runtime': '0.0588', 'eval_samples_per_second': '1700', 'eval_steps_per_second': '33.99', 'epoch': '3'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  6.75it/s][AWriting model shards: 100%|██████████| 1/1 [00:00<00:00,  6.74it/s]
+/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py:775: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+ 31%|███       | 83/270 [00:13<01:06,  2.82it/s] 31%|███▏      | 85/270 [00:13<00:49,  3.75it/s] 32%|███▏      | 87/270 [00:13<00:37,  4.86it/s] 33%|███▎      | 89/270 [00:13<00:29,  6.10it/s] 34%|███▎      | 91/270 [00:13<00:24,  7.45it/s] 34%|███▍      | 93/270 [00:13<00:20,  8.74it/s] 35%|███▌      | 95/270 [00:13<00:17,  9.81it/s] 36%|███▌      | 97/270 [00:14<00:15, 11.21it/s] 37%|███▋      | 99/270 [00:14<00:14, 12.17it/s]                                                 37%|███▋      | 100/270 [00:14<00:13, 12.17it/s] 37%|███▋      | 101/270 [00:14<00:13, 12.80it/s] 38%|███▊      | 103/270 [00:14<00:12, 13.59it/s] 39%|███▉      | 105/270 [00:14<00:11, 14.25it/s] 40%|███▉      | 107/270 [00:14<00:11, 14.80it/s]{'loss': '0.9257', 'grad_norm': '2.628', 'learning_rate': '3.504e-05', 'epoch': '3.704'}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+                                                 
+                                     [A 40%|████      | 108/270 [00:14<00:10, 14.80it/s]
+100%|██████████| 2/2 [00:00<00:00, 145.30it/s][A
+                                              [A{'eval_loss': '1.002', 'eval_precision': '0', 'eval_recall': '0', 'eval_f1': '0', 'eval_runtime': '0.0578', 'eval_samples_per_second': '1729', 'eval_steps_per_second': '34.58', 'epoch': '4'}
+
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s][A
+Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  7.04it/s][AWriting model shards: 100%|██████████| 1/1 [00:00<00:00,  7.03it/s]
+                                                  40%|████      | 108/270 [00:16<00:10, 14.80it/s]There were missing keys in the checkpoint model loaded: ['roberta.embeddings.LayerNorm.weight', 'roberta.embeddings.LayerNorm.bias', 'roberta.encoder.layer.0.attention.output.LayerNorm.weight', 'roberta.encoder.layer.0.attention.output.LayerNorm.bias', 'roberta.encoder.layer.0.output.LayerNorm.weight', 'roberta.encoder.layer.0.output.LayerNorm.bias', 'roberta.encoder.layer.1.attention.output.LayerNorm.weight', 'roberta.encoder.layer.1.attention.output.LayerNorm.bias', 'roberta.encoder.layer.1.output.LayerNorm.weight', 'roberta.encoder.layer.1.output.LayerNorm.bias', 'roberta.encoder.layer.2.attention.output.LayerNorm.weight', 'roberta.encoder.layer.2.attention.output.LayerNorm.bias', 'roberta.encoder.layer.2.output.LayerNorm.weight', 'roberta.encoder.layer.2.output.LayerNorm.bias', 'roberta.encoder.layer.3.attention.output.LayerNorm.weight', 'roberta.encoder.layer.3.attention.output.LayerNorm.bias', 'roberta.encoder.layer.3.output.LayerNorm.weight', 'roberta.encoder.layer.3.output.LayerNorm.bias', 'roberta.encoder.layer.4.attention.output.LayerNorm.weight', 'roberta.encoder.layer.4.attention.output.LayerNorm.bias', 'roberta.encoder.layer.4.output.LayerNorm.weight', 'roberta.encoder.layer.4.output.LayerNorm.bias', 'roberta.encoder.layer.5.attention.output.LayerNorm.weight', 'roberta.encoder.layer.5.attention.output.LayerNorm.bias', 'roberta.encoder.layer.5.output.LayerNorm.weight', 'roberta.encoder.layer.5.output.LayerNorm.bias', 'roberta.encoder.layer.6.attention.output.LayerNorm.weight', 'roberta.encoder.layer.6.attention.output.LayerNorm.bias', 'roberta.encoder.layer.6.output.LayerNorm.weight', 'roberta.encoder.layer.6.output.LayerNorm.bias', 'roberta.encoder.layer.7.attention.output.LayerNorm.weight', 'roberta.encoder.layer.7.attention.output.LayerNorm.bias', 'roberta.encoder.layer.7.output.LayerNorm.weight', 'roberta.encoder.layer.7.output.LayerNorm.bias', 'roberta.encoder.layer.8.attention.output.LayerNorm.weight', 'roberta.encoder.layer.8.attention.output.LayerNorm.bias', 'roberta.encoder.layer.8.output.LayerNorm.weight', 'roberta.encoder.layer.8.output.LayerNorm.bias', 'roberta.encoder.layer.9.attention.output.LayerNorm.weight', 'roberta.encoder.layer.9.attention.output.LayerNorm.bias', 'roberta.encoder.layer.9.output.LayerNorm.weight', 'roberta.encoder.layer.9.output.LayerNorm.bias', 'roberta.encoder.layer.10.attention.output.LayerNorm.weight', 'roberta.encoder.layer.10.attention.output.LayerNorm.bias', 'roberta.encoder.layer.10.output.LayerNorm.weight', 'roberta.encoder.layer.10.output.LayerNorm.bias', 'roberta.encoder.layer.11.attention.output.LayerNorm.weight', 'roberta.encoder.layer.11.attention.output.LayerNorm.bias', 'roberta.encoder.layer.11.output.LayerNorm.weight', 'roberta.encoder.layer.11.output.LayerNorm.bias'].
+There were unexpected keys in the checkpoint model loaded: ['roberta.embeddings.LayerNorm.beta', 'roberta.embeddings.LayerNorm.gamma', 'roberta.encoder.layer.0.attention.output.LayerNorm.beta', 'roberta.encoder.layer.0.attention.output.LayerNorm.gamma', 'roberta.encoder.layer.0.output.LayerNorm.beta', 'roberta.encoder.layer.0.output.LayerNorm.gamma', 'roberta.encoder.layer.1.attention.output.LayerNorm.beta', 'roberta.encoder.layer.1.attention.output.LayerNorm.gamma', 'roberta.encoder.layer.1.output.LayerNorm.beta', 'roberta.encoder.layer.1.output.LayerNorm.gamma', 'roberta.encoder.layer.2.attention.output.LayerNorm.beta', 'roberta.encoder.layer.2.attention.output.LayerNorm.gamma', 'roberta.encoder.layer.2.output.LayerNorm.beta', 'roberta.encoder.layer.2.output.LayerNorm.gamma', 'roberta.encoder.layer.3.attention.output.LayerNorm.beta', 'roberta.encoder.layer.3.attention.output.LayerNorm.gamma', 'roberta.encoder.layer.3.output.LayerNorm.beta', 'roberta.encoder.layer.3.output.LayerNorm.gamma', 'roberta.encoder.layer.4.attention.output.LayerNorm.beta', 'roberta.encoder.layer.4.attention.output.LayerNorm.gamma', 'roberta.encoder.layer.4.output.LayerNorm.beta', 'roberta.encoder.layer.4.output.LayerNorm.gamma', 'roberta.encoder.layer.5.attention.output.LayerNorm.beta', 'roberta.encoder.layer.5.attention.output.LayerNorm.gamma', 'roberta.encoder.layer.5.output.LayerNorm.beta', 'roberta.encoder.layer.5.output.LayerNorm.gamma', 'roberta.encoder.layer.6.attention.output.LayerNorm.beta', 'roberta.encoder.layer.6.attention.output.LayerNorm.gamma', 'roberta.encoder.layer.6.output.LayerNorm.beta', 'roberta.encoder.layer.6.output.LayerNorm.gamma', 'roberta.encoder.layer.7.attention.output.LayerNorm.beta', 'roberta.encoder.layer.7.attention.output.LayerNorm.gamma', 'roberta.encoder.layer.7.output.LayerNorm.beta', 'roberta.encoder.layer.7.output.LayerNorm.gamma', 'roberta.encoder.layer.8.attention.output.LayerNorm.beta', 'roberta.encoder.layer.8.attention.output.LayerNorm.gamma', 'roberta.encoder.layer.8.output.LayerNorm.beta', 'roberta.encoder.layer.8.output.LayerNorm.gamma', 'roberta.encoder.layer.9.attention.output.LayerNorm.beta', 'roberta.encoder.layer.9.attention.output.LayerNorm.gamma', 'roberta.encoder.layer.9.output.LayerNorm.beta', 'roberta.encoder.layer.9.output.LayerNorm.gamma', 'roberta.encoder.layer.10.attention.output.LayerNorm.beta', 'roberta.encoder.layer.10.attention.output.LayerNorm.gamma', 'roberta.encoder.layer.10.output.LayerNorm.beta', 'roberta.encoder.layer.10.output.LayerNorm.gamma', 'roberta.encoder.layer.11.attention.output.LayerNorm.beta', 'roberta.encoder.layer.11.attention.output.LayerNorm.gamma', 'roberta.encoder.layer.11.output.LayerNorm.beta', 'roberta.encoder.layer.11.output.LayerNorm.gamma'].
+ 40%|████      | 108/270 [00:17<00:25,  6.34it/s]
+/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py:775: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+{'train_runtime': '16.69', 'train_samples_per_second': '508.8', 'train_steps_per_second': '16.18', 'train_loss': '1.071', 'epoch': '4'}
+  0%|          | 0/2 [00:00<?, ?it/s]/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+100%|██████████| 2/2 [00:00<00:00, 140.49it/s]
+[03/30/26 10:42:23] INFO     Training complete. Metrics: {'eval_loss': 0.9887319803237915, 'eval_precision': 0.0, 'eval_recall': 0.0, 'eval_f1':   bert_ner.py:263
+                             0.0, 'eval_runtime': 0.0727, 'eval_samples_per_second': 1376.314, 'eval_steps_per_second': 27.526, 'epoch': 4.0}                     
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  7.23it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  7.22it/s]
+                    INFO     Saved BERT NER model to outputs/gold_roberta_ner_v2                                                                   bert_ner.py:314
+[03/30/26 10:42:23] INFO     Model saved to outputs/gold_roberta_ner_v2                                                                   train_transformer.py:198
+/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/Users/Z001XJ3/Documents/Repositories/ThesisWork/.venv/lib/python3.11/site-packages/seqeval/metrics/v1.py:57: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[03/30/26 10:42:24] INFO     NER Metrics (mode=strict):                                                                                           intrinsic.py:136
+                    INFO       Precision: 0.0000                                                                                                  intrinsic.py:137
+                    INFO       Recall:    0.0000                                                                                                  intrinsic.py:138
+                    INFO       F1:        0.0000                                                                                                  intrinsic.py:139
+[03/30/26 10:42:24] INFO     Test file: gold_test.parquet                                                                                 train_transformer.py:205
+                    INFO     Test metrics: P=0.0000 R=0.0000 F1=0.0000                                                                    train_transformer.py:206

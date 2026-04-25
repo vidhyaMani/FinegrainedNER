@@ -1,0 +1,24 @@
+[03/15/26 06:20:43] INFO     Loaded BiLSTM-CRF model from outputs/bilstm_crf                                                                                          bilstm_crf.py:501
+[03/15/26 06:20:53] INFO     NER Metrics (mode=strict):                                                                                                                 intrinsic.py:82
+                    INFO       Precision: 0.6091                                                                                                                        intrinsic.py:83
+                    INFO       Recall:    0.3530                                                                                                                        intrinsic.py:84
+                    INFO       F1:        0.4469                                                                                                                        intrinsic.py:85
+BiLSTM-CRF Test Results:
+  Precision: 0.6091
+  Recall: 0.3530
+  F1: 0.4469
+
+                 precision    recall  f1-score   support
+
+ATTRIBUTE_VALUE       0.88      0.98      0.93       531
+          BRAND       0.69      0.57      0.63      2192
+          COLOR       0.29      0.15      0.20       533
+       MATERIAL       0.78      0.94      0.85       456
+   PRODUCT_TYPE       0.53      0.22      0.31      8015
+   SIZE_MEASURE       0.51      0.64      0.56       314
+
+      micro avg       0.61      0.35      0.45     12041
+      macro avg       0.61      0.58      0.58     12041
+   weighted avg       0.57      0.35      0.42     12041
+
+Metrics saved to outputs/bilstm_crf/test_metrics.json
