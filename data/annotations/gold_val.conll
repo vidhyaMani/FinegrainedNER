@@ -1,0 +1,458 @@
+hdmi	O
+to	O
+small	O
+hdmi	O
+
+martin	O
+tshirt	O
+women	B-PRODUCT_TYPE
+
+tobi	O
+smart	O
+watch	O
+for	O
+kids	O
+blue	B-PRODUCT_TYPE
+
+wipes	O
+for	O
+baby	O
+water	O
+wipes	O
+
+exteranl	O
+dvd	O
+case	O
+
+sauder	B-BRAND
+craft	O
+pro	O
+series	O
+
+bird	O
+feeders	O
+for	O
+outdoors	B-ATTRIBUTE_VALUE
+squirrel	O
+proof	B-PRODUCT_TYPE
+
+11	O
+patio	O
+umbrella	O
+without	O
+tilt	O
+
+hasbro	O
+troll	B-BRAND
+
+60s	O
+wigs	B-PRODUCT_TYPE
+for	B-PRODUCT_TYPE
+women	I-PRODUCT_TYPE
+
+waterproof	B-ATTRIBUTE_VALUE
+shoes	O
+nike	B-BRAND
+
+adidas	O
+trefoil	O
+shirts	O
+for	O
+men	O
+
+yeti	B-BRAND
+backpack	B-PRODUCT_TYPE
+cooler	O
+
+valve	O
+spring	O
+compressor	B-PRODUCT_TYPE
+
+sensitive	O
+led	B-ATTRIBUTE_VALUE
+light	O
+
+flannel	O
+jackets	O
+for	O
+men	O
+
+shockra	O
+stones	O
+
+silver	B-PRODUCT_TYPE
+tablecloth	B-PRODUCT_TYPE
+120	O
+
+12	O
+volt	O
+cable	O
+male	O
+to	O
+male	O
+
+sell	B-PRODUCT_TYPE
+without	B-PRODUCT_TYPE
+selling	I-PRODUCT_TYPE
+
+avery	O
+aster	O
+
+ugly	B-BRAND
+stik	I-BRAND
+custom	O
+
+mens	O
+hoodies	O
+under	O
+10	O
+
+makeup	O
+remover	O
+wipes	O
+
+modest	O
+bikini	O
+
+tripod	O
+iphone	B-PRODUCT_TYPE
+gopro	I-PRODUCT_TYPE
+
+pex	O
+shut	O
+off	O
+valves	B-PRODUCT_TYPE
+
+amazon	O
+photo	B-PRODUCT_TYPE
+storage	O
+
+woodard	B-BRAND
+patio	O
+
+they	O
+dont	O
+care	O
+about	O
+us	B-PRODUCT_TYPE
+michael	O
+jackson	O
+
+bar	O
+stool	O
+
+zero	O
+suit	O
+samus	O
+cosplay	O
+
+men	O
+s	O
+fur	O
+lined	O
+leather	B-PRODUCT_TYPE
+gloves	I-PRODUCT_TYPE
+
+bass	O
+guitar	O
+
+trousers	O
+women	O
+
+iphone	B-PRODUCT_TYPE
+xr	I-PRODUCT_TYPE
+cases	B-PRODUCT_TYPE
+weed	B-PRODUCT_TYPE
+
+plastic	B-MATERIAL
+pit	O
+balls	B-PRODUCT_TYPE
+
+coin	B-PRODUCT_TYPE
+collecting	B-PRODUCT_TYPE
+holders	O
+
+xs	B-SIZE_MEASURE
+max	B-PRODUCT_TYPE
+battery	O
+case	B-PRODUCT_TYPE
+
+silk	B-MATERIAL
+button	O
+down	O
+pajamas	O
+for	O
+women	O
+
+frame	B-PRODUCT_TYPE
+18x30	B-SIZE_MEASURE
+
+seattle	O
+mariners	O
+socks	O
+
+classic	O
+van	B-BRAND
+s	B-PRODUCT_TYPE
+men	I-PRODUCT_TYPE
+old	O
+school	O
+
+pumpkin	O
+seeds	O
+without	O
+shells	O
+
+fan	O
+for	O
+desk	O
+
+breckelles	B-BRAND
+outlaw	O
+boots	B-PRODUCT_TYPE
+
+food	O
+tray	O
+
+cintos	O
+gucci	B-BRAND
+originales	O
+para	O
+mujer	O
+
+monitors	O
+computer	O
+
+ny	O
+sweatshirt	O
+women	O
+
+shein	B-BRAND
+womens	O
+clothes	O
+
+zombie	B-PRODUCT_TYPE
+ghost	O
+mask	B-PRODUCT_TYPE
+
+wire	O
+hangers	B-PRODUCT_TYPE
+inch	O
+bulk	O
+
+vintage	O
+sewing	O
+machine	B-PRODUCT_TYPE
+music	O
+box	O
+
+lilac	O
+reed	O
+diffuser	O
+
+the	O
+cars	O
+cd	B-PRODUCT_TYPE
+boxset	O
+
+low	O
+heeled	O
+black	B-COLOR
+booties	O
+lace	O
+up	O
+
+nerf	B-BRAND
+rival	O
+attachments	O
+
+3tb	O
+external	O
+hard	O
+drive	O
+usb	B-ATTRIBUTE_VALUE
+3.0	O
+
+icebags	O
+for	O
+dogs	B-PRODUCT_TYPE
+
+men	O
+costumes	O
+for	O
+halloween	O
+
+football	O
+cleats	O
+men	O
+
+robin	O
+hood	O
+costume	O
+
+go	B-PRODUCT_TYPE
+kart	I-PRODUCT_TYPE
+engine	B-PRODUCT_TYPE
+parts	B-PRODUCT_TYPE
+
+i	O
+love	O
+the	O
+wine	B-COLOR
+not	O
+the	O
+label	B-PRODUCT_TYPE
+shirt	I-PRODUCT_TYPE
+
+fake	O
+water	O
+lotus	O
+
+whats	O
+yours	O
+like	O
+game	B-PRODUCT_TYPE
+
+sd	O
+card	B-PRODUCT_TYPE
+mp3	O
+
+iphone	O
+8	O
+otterbox	B-BRAND
+case	O
+black	B-PRODUCT_TYPE
+
+fake	O
+sweets	O
+
+5	O
+pull	O
+cord	O
+
+titanium	B-MATERIAL
+shovel	B-PRODUCT_TYPE
+
+cheer	O
+shorts	O
+pack	O
+teen	O
+
+female	O
+masks	O
+for	O
+coronavirus	O
+protection	O
+
+andarondak	O
+chairs	O
+cushions	O
+
+christy	O
+barritt	O
+
+game	O
+of	O
+thrones	O
+phone	O
+stick	O
+on	O
+
+hot	B-PRODUCT_TYPE
+tub	I-PRODUCT_TYPE
+
+24	B-PRODUCT_TYPE
+month	I-PRODUCT_TYPE
+mickey	O
+sweatshirt	O
+
+holster	O
+for	O
+kimber	O
+380	O
+
+soft	O
+cat	B-PRODUCT_TYPE
+carrier	B-PRODUCT_TYPE
+
+library	O
+organization	O
+
+charmed	O
+poster	O
+
+law	B-PRODUCT_TYPE
+school	I-PRODUCT_TYPE
+without	O
+fear	O
+
+microwave	O
+with	B-PRODUCT_TYPE
+inverter	I-PRODUCT_TYPE
+technology	I-PRODUCT_TYPE
+
+unicorn	B-COLOR
+time	B-BRAND
+teacher	B-PRODUCT_TYPE
+watch	I-PRODUCT_TYPE
+
+happy	O
+birthday	O
+bear	O
+
+flower	O
+for	O
+dress	O
+decoration	O
+
+clay	O
+croft	O
+
+ashwagandha	O
+liquid	O
+
+wifi	B-PRODUCT_TYPE
+range	I-PRODUCT_TYPE
+extender	I-PRODUCT_TYPE
+
+jordan	O
+jersey	O
+
+playstation	B-BRAND
+1	B-PRODUCT_TYPE
+
+watches	O
+for	O
+women	O
+on	O
+sale	O
+clearance	O
+
+extendable	O
+ram	O
+for	O
+lenovo	B-BRAND
+yoga	O
+
+white	B-COLOR
+flats	O
+or	O
+ballet	O
+shoes	O
+
+round	O
+tablecloth	O
+
+bipod	B-PRODUCT_TYPE
+shooting	O
+stick	B-PRODUCT_TYPE
+
+rectangular	O
+flower	O
+pot	O
+
+melamine	O
+nautical	O
+serving	O
+pieces	O
+
