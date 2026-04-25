@@ -1,0 +1,61 @@
+{
+  "precision": 0.2033898305084746,
+  "recall": 0.11650485436893204,
+  "f1": 0.14814814814814817,
+  "per_entity_type": {
+    "ATTRIBUTE_VALUE": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": "1"
+    },
+    "BRAND": {
+      "precision": 0.2,
+      "recall": 0.21428571428571427,
+      "f1-score": 0.20689655172413796,
+      "support": "14"
+    },
+    "COLOR": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": "7"
+    },
+    "MATERIAL": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": "6"
+    },
+    "PRODUCT_TYPE": {
+      "precision": 0.20454545454545456,
+      "recall": 0.1232876712328767,
+      "f1-score": 0.15384615384615385,
+      "support": "73"
+    },
+    "SIZE_MEASURE": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": "2"
+    },
+    "micro avg": {
+      "precision": 0.2033898305084746,
+      "recall": 0.11650485436893204,
+      "f1-score": 0.14814814814814817,
+      "support": "103"
+    },
+    "macro avg": {
+      "precision": 0.06742424242424243,
+      "recall": 0.056262230919765156,
+      "f1-score": 0.0601237842617153,
+      "support": "103"
+    },
+    "weighted avg": {
+      "precision": 0.17215357458075906,
+      "recall": 0.11650485436893204,
+      "f1-score": 0.13715845587288508,
+      "support": "103"
+    }
+  }
+}
